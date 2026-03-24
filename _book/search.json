@@ -1,0 +1,62 @@
+[
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html",
+    "href": "week1.html",
+    "title": "3  Week1 — Getting started with remote sensing",
+    "section": "",
+    "text": "3.1 1. Summary\n“This week’s content has shifted my perspective on remote sensing imagery from merely ‘aesthetic images’ to quantifiable spectral data. Different land covers—such as water, vegetation, and buildings—possess unique spectral response characteristics, exhibiting significant variations across different bands. Sensors, in essence, capture the radiance or reflectance information of the Earth’s surface across the electromagnetic spectrum.”",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week1 — Getting started with remote sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html#summary",
+    "href": "week1.html#summary",
+    "title": "3  Week1 — Getting started with remote sensing",
+    "section": "",
+    "text": "3.1.1 1.1 Four types of resolution\n\nSpatial Resolution: A smaller pixel size provides finer detail, whereas a larger pixel size is more prone to the mixed pixel effect.\nSpectral Resolution: Refers to the number and width of spectral bands. Narrower and more numerous bands allow for better differentiation of subtle spectral signatures between materials.\nTemporal Resolution: The frequency of repeat observations over the same area.\nRadiometric Resolution：This resolution defines the sensor’s sensitivity to changes in light intensity. By quantizing the received energy into finer brightness levels, higher resolution results in much smoother color or grayscale transitions.\n\n\n\n3.1.2 1.2 Feature Identification\nUtilizing QGIS and SNAP, I employed true-color/false-color composites and histogram stretching to rapidly identify the spatial patterns of water bodies, vegetation, and built-up areas. This process enabled a direct comparison of the differences in scale and level of detail between Sentinel and Landsat imagery. Beyond mere visual observation, this step involves a quality screening for issues such as cloud cover, shadows, stripping, and edge NoData values, providing a basis for defining AOIs and sampling strategies in subsequent stages.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week1 — Getting started with remote sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html#applications",
+    "href": "week1.html#applications",
+    "title": "3  Week1 — Getting started with remote sensing",
+    "section": "3.2 2. Applications",
+    "text": "3.2 2. Applications\n\n3.2.1 2.1 Processing levels\nThe most common classification for mainstream remote sensing products is based on their processing levels. Specifically, NASA’s Level 0–4 definitions serve as the widely adopted reference framework across the industry NASA Data Processing Levels Processing Levels.\n\nRemote Sensing Data Processing Levels\n\n\n\n\n\n\n\nLevel\nName\nKey definitions\n\n\n\n\nL0\nRaw Data\nRaw sensor streams, typically as original telemetry packets.\n\n\nL1\nGeometric Correction\nData is converted to physical units with Earth location information attached.\n\n\nL2\nSurface Physical Variables\nDerived geophysical variables. The most critical step is Atmospheric Correction\n\n\nL3\nSpatio-temporal Composites\nMapped and gridded variables. Data is resampled onto a global or regional grid, often involving spatial mosaicking and temporal compositing.\n\n\nL4\nHigher-level Analysis Products\nIntegrated output from models.\n\n\n\n\n\n3.2.2 3.1 Key Sensors\n\nSentinel-1 (SAR), with its cloud-penetrating and day-and-night imaging capabilities, is the preferred choice for event monitoring in cloudy or disaster-stricken scenarios.\nSentinel-2 is better suited for fine-grained surface interpretation, such as urban textures, detailed vegetation and water distribution, or short-term changes.\nLandsat’s long-term data record and stable calibration make it ideal for long-term trend analysis, including decadal land-use changes and urban expansion.\nMODIS and VIIRS excel due to their high temporal resolution, capturing seasonal dynamics and regional indicators.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week1 — Getting started with remote sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html#reflection",
+    "href": "week1.html#reflection",
+    "title": "3  Week1 — Getting started with remote sensing",
+    "section": "3.3 3. Reflection",
+    "text": "3.3 3. Reflection\nI used to rely more on QGIS/SNAP because it is highly intuitive: by switching a band combination or applying a simple stretch, differences between land-cover types become visible immediately. It is also easier to spot issues such as cloud and shadow contamination. However, this week I realised that as the data scale grows, the strengths of SNAP can turn into limitations: the same steps must be repeated manually, the workflow is harder to standardise, and it becomes more difficult to ensure consistent processing choices across runs. By contrast, code-based approaches feel more abstract at first, because they require translating what I do in the software into variables, parameters, and functions. Yet once the workflow is scripted, it can be run in batch, reused across datasets, and every processing decision is recorded. Going forward, an ideal strategy for me is to use the SNAP for rapid exploration and quality control, while relying on code for reproducible, scalable batch processing and quantitative analysis—reducing repetitive work and improving the reliability of my research.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week1 — Getting started with remote sensing</span>"
+    ]
+  }
+]

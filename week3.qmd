@@ -1,7 +1,7 @@
 ---
 title: "Week3——Feature Extraction and Dimension Reduction"
 format: html
-bibliography: reference3.bib
+bibliography: references.bib
 link-citations: true
 ---
 
@@ -13,11 +13,11 @@ This learning task uses Landsat satellite imagery of Cape Town as its basis. Usi
 
 Based on the principle that different surface materials reflect light differently (healthy vegetation contains chlorophyll, which strongly absorbs red light, while the cellular structure of plants strongly reflects near-infrared light), the calculation is performed using the following formula: $$NDVI = \frac{B5 - B4}{B5 + B4}$$
 
-![](images/clipboard-3431523994.png)
+![](week3/images/clipboard-3431523994.png){fig-align="center"}
 
 In the analysis of the Cape Town region, after calculating the NDVI for the entire area, we set a threshold of 0.2. By masking areas with values below this threshold, we successfully removed large areas of non-vegetation backgrounds, such as the ocean, dense urban structures, and bare soil. This process yielded a clean, valid vegetation cover map.
 
-![](images/clipboard-3663781118.png)
+![](week3/images/clipboard-3663781118.png){fig-align="center"}
 
 ### 1.2 GLCM: Spatial Texture Feature Extraction
 
@@ -27,7 +27,7 @@ The formula for converting DN to refractive index is： $\rho = (DN \times 0.000
 
 In this study, using Cape Town as an example, we calculated a 7×7 window homogeneity metric from the red band. The large areas of light gray and pure white in the image represent “high homogeneity,” indicating that the surface in these areas is smooth, such as open water bodies, vegetation, or flat bare ground. The dark gray, densely spotted areas represent “low homogeneity,” indicating that the texture of the adjacent surface is fragmented, corresponding to urban built-up areas, dense residential zones.
 
-![](images/clipboard-4038221735.png){fig-align="center" width="658"}
+![](week3/images/clipboard-4038221735.png){fig-align="center"}
 
 ### 1.3 PCA: Multi-source Data Fusion and Dimension Reduction
 
@@ -35,7 +35,7 @@ There is typically a strong correlation between the various bands in multispectr
 
 We applied PCA to eight spectral bands and one texture band from Cape Town. Most of the useful information is captured in the first few components, while noise and less important variation are pushed into later components. This helps reduce redundancy and provides clearer inputs for land cover classification.
 
-![](images/clipboard-4140019321.png)
+![](week3/images/PCA_perfect.png)
 
 ## 2. Application
 
@@ -43,13 +43,13 @@ Principal Component Analysis (PCA), as a preprocessing step for dimensionality r
 
 Several recent studies have combined PCA with convolutional neural networks (CNNs). PCA is used to reduce spectral redundancy, while CNNs extract spatial features and perform classification. This approach significantly improves classification accuracy compared to traditional methods[@8736016]. Essentially, the capabilities of PCA itself have not been enhanced; rather, the introduction of CNNs compensates for PCA’s limitations in representing spatial information.
 
-![](images/clipboard-1486884527.png)
+![](week3/images/clipboard-1486884527.png){fig-align="center"}
 
 In addition, some studies have developed more complex processing workflows by combining PCA with multi-stage feature extraction techniques, thereby capturing both global and local features of the data simultaneously. This suggests that in modern remote sensing analysis, PCA is more commonly used as a dimension-reduction tool rather than as a standalone feature extraction method.
 
 -   **PCA + Spatial-Spectral Fusion:** Fusing the global features extracted by PCA with the local features extracted by SSA significantly improves the accuracy of land cover classification[@rs13234927].
 
-![](images/clipboard-1812895644.png){fig-align="center" width="612"}
+![](week3/images/clipboard-1812895644.png){fig-align="center"}
 
 -   **PCA + Hybrid Manifold Learning:** Within PCA, apply LPP (Locally Linear Embedding) or t-SNE to preserve the local geometric proximity of the data[@rs16224287].
 
