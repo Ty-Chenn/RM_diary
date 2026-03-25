@@ -10,30 +10,6 @@
     ]
   },
   {
-    "objectID": "week5.html",
-    "href": "week5.html",
-    "title": "week5",
-    "section": "",
-    "text": "Revisiting Google Earth Engine (GEE) this week instantly brought back memories of my first encounter with this technology during my undergraduate studies. Back then, I tried using GEE to analyze urban expansion, and what impressed me most was how convenient it was. Unlike traditional remote sensing, there was no need to painstakingly search for data on official websites, endure lengthy download processes, or consume vast amounts of local storage. With just a few lines of simple code, I could directly access massive historical datasets in the cloud for analysis and instantly render the results in an intuitive, interactive world map below the editor. It shattered my preconceived notion that remote sensing software had to process data locally."
-  },
-  {
-    "objectID": "week5.html#meet-earth-google-engine",
-    "href": "week5.html#meet-earth-google-engine",
-    "title": "week5",
-    "section": "",
-    "text": "Revisiting Google Earth Engine (GEE) this week instantly brought back memories of my first encounter with this technology during my undergraduate studies. Back then, I tried using GEE to analyze urban expansion, and what impressed me most was how convenient it was. Unlike traditional remote sensing, there was no need to painstakingly search for data on official websites, endure lengthy download processes, or consume vast amounts of local storage. With just a few lines of simple code, I could directly access massive historical datasets in the cloud for analysis and instantly render the results in an intuitive, interactive world map below the editor. It shattered my preconceived notion that remote sensing software had to process data locally."
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "References"
-    ]
-  },
-  {
     "objectID": "intro.html",
     "href": "intro.html",
     "title": "2  Introduction",
@@ -191,6 +167,16 @@
     "text": "6.5 5. Reflections\nThe results derived from satellite image analysis are free from subjective bias. They enable decision-makers to quickly bypass the debate over “where resources are most needed” and move directly to the implementation phase of “how to carry out interventions.” Furthermore, since this data is inexpensive to obtain and updated rapidly, it significantly reduces the burden on field staff responsible for data collection.\nHowever, Satellites measure surface temperatures，such as how hot a rooftop or asphalt road is. This does not equate to the air temperature or indoor temperature that residents actually experience. An area with extremely high LST and low NDVI could be a large, modern shopping mall with central air conditioning. Conversely, an urban village that appears to be surrounded by greenery may actually consist of shantytowns built with corrugated iron roofs and extremely poor ventilation, where residents are enduring deadly indoor heat. Relying solely on “red zones” on satellite imagery to allocate relief supplies can easily lead to a severe misallocation of resources.\n\n\n\n\nHess, Jeremy J., Sathish LM, Kim Knowlton, Shubhayu Saha, Priya Dutta, Parthasarathi Ganguly, Abhiyant Tiwari, et al. 2018. “Building Resilience to Climate Change: Pilot Evaluation of the Impact of India’s First Heat Action Plan on All-Cause Mortality.” Journal of Environmental and Public Health 2018 (1): 7973519. https://doi.org/https://doi.org/10.1155/2018/7973519.\n\n\nMohammad, Pir, Ajanta Goswami, and Stefania Bonafoni. 2019. “The Impact of the Land Cover Dynamics on Surface Urban Heat Island Variations in Semi-Arid Cities: A Case Study in Ahmedabad City, India, Using Multi-Sensor/Source Data.” Sensors 19 (17). https://doi.org/10.3390/s19173701.\n\n\nSharma, Ayushi, Priya Dutta, Priyanka Shah, Veena Iyer, Hao He, Amir Sapkota, Chuansi Gao, and Yu-Chun Wang. 2024. “Characterizing the Effects of Extreme Heat Events on All-Cause Mortality: A Case Study in Ahmedabad City of India, 2002–2018.” Urban Climate 54: 101832. https://doi.org/https://doi.org/10.1016/j.uclim.2024.101832.\n\n\nSharma, Srashti, Aashutosh Singh, Rahul Kumar, and Anand Mehta. 2023. “Analysis of Land Surface Temperature at 10-Meter Pixel Size (Spatial Resolution) for Ahmedabad City.” In 2023 International Conference on Computational Intelligence and Sustainable Engineering Solutions (CISES), 134–38. https://doi.org/10.1109/CISES58720.2023.10183518.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week4——Policy</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Cao, Cong-Yin, Meng-Ting Li, Yang-Jun Deng, Longfei Ren, Yi Liu, and\nXing-Hui Zhu. 2024. “Joint Sparse Local Linear Discriminant\nAnalysis for Feature Dimensionality Reduction of Hyperspectral\nImages.” Remote Sensing 16 (22). https://doi.org/10.3390/rs16224287.\n\n\nHess, Jeremy J., Sathish LM, Kim Knowlton, Shubhayu Saha, Priya Dutta,\nParthasarathi Ganguly, Abhiyant Tiwari, et al. 2018. “Building\nResilience to Climate Change: Pilot Evaluation of the Impact of India’s\nFirst Heat Action Plan on All-Cause Mortality.” Journal of\nEnvironmental and Public Health 2018 (1): 7973519.\nhttps://doi.org/https://doi.org/10.1155/2018/7973519.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\nMohammad, Pir, Ajanta Goswami, and Stefania Bonafoni. 2019. “The\nImpact of the Land Cover Dynamics on Surface Urban Heat Island\nVariations in Semi-Arid Cities: A Case Study in Ahmedabad City, India,\nUsing Multi-Sensor/Source Data.” Sensors 19 (17). https://doi.org/10.3390/s19173701.\n\n\nRoy, Swalpa Kumar, Gopal Krishna, Shiv Ram Dubey, and Bidyut B.\nChaudhuri. 2020. “HybridSN: Exploring 3-d–2-d CNN Feature\nHierarchy for Hyperspectral Image Classification.” IEEE\nGeoscience and Remote Sensing Letters 17 (2): 277–81. https://doi.org/10.1109/LGRS.2019.2918719.\n\n\nSharma, Ayushi, Priya Dutta, Priyanka Shah, Veena Iyer, Hao He, Amir\nSapkota, Chuansi Gao, and Yu-Chun Wang. 2024. “Characterizing the\nEffects of Extreme Heat Events on All-Cause Mortality: A Case Study in\nAhmedabad City of India, 2002–2018.” Urban Climate 54:\n101832. https://doi.org/https://doi.org/10.1016/j.uclim.2024.101832.\n\n\nSharma, Srashti, Aashutosh Singh, Rahul Kumar, and Anand Mehta. 2023.\n“Analysis of Land Surface Temperature at 10-Meter Pixel Size\n(Spatial Resolution) for Ahmedabad City.” In 2023\nInternational Conference on Computational Intelligence and Sustainable\nEngineering Solutions (CISES), 134–38. https://doi.org/10.1109/CISES58720.2023.10183518.\n\n\nWang, Zhao, Fenlong Jiang, Tongfei Liu, Fei Xie, and Peng Li. 2021.\n“Attention-Based Spatial and Spectral Network with PCA-Guided\nSelf-Supervised Feature Extraction for Change Detection in Hyperspectral\nImages.” Remote Sensing 13 (23). https://doi.org/10.3390/rs13234927.\n\n\nZabalza, Jaime, Jinchang Ren, Mingqiang Yang, Yi Zhang, Jun Wang,\nStephen Marshall, and Junwei Han. 2014. “Novel Folded-PCA for\nImproved Feature Extraction and Data Reduction with Hyperspectral\nImaging and SAR in Remote Sensing.” ISPRS Journal of\nPhotogrammetry and Remote Sensing 93: 112–22. https://doi.org/https://doi.org/10.1016/j.isprsjprs.2014.04.006.",
+    "crumbs": [
+      "References"
     ]
   }
 ]
