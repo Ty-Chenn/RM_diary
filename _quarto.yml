@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "RMweekly"
@@ -10,6 +11,8 @@ book:
     - intro.qmd
     - summary.qmd
     - week1.qmd
+    - week3.qmd
+    - week4.qmd
     - references.qmd
 
 bibliography: references.bib
