@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>week5</title>
+<title>Week6 – Classification 1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,21 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="week5_files/libs/clipboard/clipboard.min.js"></script>
-<script src="week5_files/libs/quarto-html/quarto.js" type="module"></script>
-<script src="week5_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="week5_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="week5_files/libs/quarto-html/popper.min.js"></script>
-<script src="week5_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="week5_files/libs/quarto-html/anchor.min.js"></script>
-<link href="week5_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="week5_files/libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="week5_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="week5_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="week5_files/libs/bootstrap/bootstrap-d6a003b94517c951b2d65075d42fb01b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="week6_files/libs/clipboard/clipboard.min.js"></script>
+<script src="week6_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="week6_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="week6_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="week6_files/libs/quarto-html/popper.min.js"></script>
+<script src="week6_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="week6_files/libs/quarto-html/anchor.min.js"></script>
+<link href="week6_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="week6_files/libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="week6_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="week6_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="week6_files/libs/bootstrap/bootstrap-d6a003b94517c951b2d65075d42fb01b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
@@ -47,7 +67,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">week5</h1>
+<h1 class="title">Week6 – Classification 1</h1>
 </div>
 
 
@@ -64,13 +84,129 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="meet-earth-google-engine" class="level2">
-<h2 class="anchored" data-anchor-id="meet-earth-google-engine">1. Meet Earth Google Engine</h2>
-<p>Revisiting Google Earth Engine (GEE) this week instantly brought back memories of my first encounter with this technology during my undergraduate studies. Back then, I tried using GEE to analyze urban expansion, and what impressed me most was how convenient it was. Unlike traditional remote sensing, there was no need to painstakingly search for data on official websites, endure lengthy download processes, or consume vast amounts of local storage. With just a few lines of simple code, I could directly access massive historical datasets in the cloud for analysis and instantly render the results in an intuitive, interactive world map below the editor. It shattered my preconceived notion that remote sensing software had to process data locally.</p>
-<p><img src="images/clipboard-3685114081.png" class="img-fluid"></p>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>After learning the basics of GEE last week, this week’s topic is classification using machine learning. I realized that the “classification” tools I used to work with in ENVI or ArcGIS were actually based on supervised learning. In our introductory courses, we simply referred to them as “image classification.” It wasn’t until this week that I truly understood the logic behind these tools.</p>
+<p>Why do we perform image classification? Satellite image data consists of nothing more than pixels with numerical values. Our goal is to transform these meaningless numbers into “semantic information” that humans can understand, such as identifying where buildings are located and where bodies of water are found. We use remote sensing techniques to quantify urban sprawl, deforestation, and environmental changes.</p>
+<p>The core of image classification lies in the use of spectral signatures. Different land features exhibit vastly different reflectance across different spectral bands. The classifier’s task is to learn the patterns of these spectral characteristics by analyzing the training samples we provide.Then, automatically classify the pixels across the entire map.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Aspect</th>
+<th style="text-align: left;">CART</th>
+<th style="text-align: left;">Random Forest</th>
+<th style="text-align: left;">Naive Bayes</th>
+<th style="text-align: left;">SVM</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Core Idea</td>
+<td style="text-align: left;">Recursive splitting</td>
+<td style="text-align: left;">Ensemble voting</td>
+<td style="text-align: left;">Probabilistic model</td>
+<td style="text-align: left;">Max margin separation</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Overfitting</td>
+<td style="text-align: left;">High</td>
+<td style="text-align: left;">Low</td>
+<td style="text-align: left;">Low</td>
+<td style="text-align: left;">Medium</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Training Speed</td>
+<td style="text-align: left;">Fast</td>
+<td style="text-align: left;">Medium</td>
+<td style="text-align: left;">Very fast</td>
+<td style="text-align: left;">Slow</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Interpretability</td>
+<td style="text-align: left;">High</td>
+<td style="text-align: left;">Low</td>
+<td style="text-align: left;">Medium</td>
+<td style="text-align: left;">Low</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Best Use Cases</td>
+<td style="text-align: left;">Simple rules</td>
+<td style="text-align: left;">General tasks</td>
+<td style="text-align: left;">Text classification</td>
+<td style="text-align: left;">High-dim data</td>
+</tr>
+</tbody>
+</table>
+<p>Since Xinjiang in China encompasses a wide variety of landforms. I initially worked with a Level 1 region. However, GEE quickly froze and returned an error due to the massive computational load. So I promptly narrowed the scope down to Beijing. I used the QA60(specifically records whether each pixel is covered by opaque clouds or cirrus clouds.) band to remove areas with cloud cover and calculated the median of the remaining images for the year, resulting in a clean base map.</p>
+<p>I don’t have a large number of sample areas, so to improve classification accuracy, I generated 1,000 random points within each ground-truth patch. This helps prevent overfitting caused by a lack of diversity in the samples.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-3990678885.png" class="img-fluid figure-img" width="489"></p>
+<figcaption>Beijing Training Polygons</figcaption>
+</figure>
+</div>
+<p>I selected a total of nine bands, specifically including the two short-wave infrared bands, B11 and B12. These are particularly effective for distinguishing between urban buildings in Beijing and the surrounding hillsides and wasteland<span class="citation" data-cites="su172210324">(<a href="#ref-su172210324" role="doc-biblioref">Jocea et al. 2025</a>)</span>.</p>
+<p>During the experiment, I ran two algorithms: CART and Random Forest.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-570344990.png" class="img-fluid figure-img" width="374"></p>
+<figcaption>CART category results</figcaption>
+</figure>
+</div>
+<p><strong>Random Forest</strong> is known for its stability. To properly validate the model, I kept 30% of the data hidden during training to use for a final test. The results were actually quite good, with a validation accuracy of 0.969. The final confusion matrix shows that the classification accuracy for water and forest is nearly perfect, while the primary minor errors are concentrated between urban and bare land. This is because, in the suburbs of Beijing, the spectral characteristics of certain building materials are highly similar to those of soil.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1353034869.png" class="img-fluid figure-img"></p>
+<figcaption>Random Forest category results</figcaption>
+</figure>
+</div>
+</section>
+<section id="applications" class="level2">
+<h2 class="anchored" data-anchor-id="applications">Applications</h2>
+<p>Existing research generally indicates that Random Forests typically outperform CART in terms of classification accuracy and model stability. For example, <span class="citation" data-cites="su172210324">(<a href="#ref-su172210324" role="doc-biblioref">Jocea et al. 2025</a>)</span> shows that the overall accuracy of Random Forests can reach 0.96–0.98, whereas CART’s accuracy is relatively lower and more volatile.</p>
+<p>This difference in performance can be attributed to differences in model architecture. CART is a single decision tree model that is susceptible to the training data and prone to overfitting<span class="citation" data-cites="breiman1984classification">(<a href="#ref-breiman1984classification" role="doc-biblioref">Leo Breiman et al. 1984</a>)</span>. In contrast, Random Forests effectively reduce model variance by aggregating the predictions of multiple decision trees through voting, resulting in high generalization ability<span class="citation" data-cites="Breiman2001RandomF">(<a href="#ref-Breiman2001RandomF" role="doc-biblioref">L. Breiman 2001</a>)</span>.</p>
+<p>However, it is important to note that CART is not totally inferior to Random Forests. If the data structure is relatively simple or the differences between classes are distinct, CART can still achieve good classification results. Furthermore, CART offers good interpretability and retains an advantage in certain application scenarios where an explanation of the model’s decision-making process is required.</p>
+<p>Although the Random Forest algorithm was first proposed as early as 2001 and has undergone more than two decades of development, what changes and improvements have been made?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-635645688.png" class="img-fluid figure-img" width="573"></p>
+<figcaption>Land cover map across the Victoria state at 20m spatial resolution for 2021/22.<span class="citation" data-cites="Sabaghy2025">(<a href="#ref-Sabaghy2025" role="doc-biblioref">Sabaghy et al. 2025</a>)</span></figcaption>
+</figure>
+</div>
+<p>The increasing accessibility of high-resolution Sentinel-2 and UAV imagery has shifted the research focus toward finer-scale features and intricate land cover types. Rather than relying solely on spectral data, modern approaches now integrate multiple sources—including textural and topographic information—while optimizing parameters to boost both accuracy and model stability. Consequently, the field has evolved from broad macro-scale mapping in agriculture to specialized applications like urban land-use classification<span class="citation" data-cites="Sabaghy2025">(<a href="#ref-Sabaghy2025" role="doc-biblioref">Sabaghy et al. 2025</a>)</span>, wetland conservation, and real-time disaster monitoring.</p>
+</section>
+<section id="reflection" class="level2">
+<h2 class="anchored" data-anchor-id="reflection">Reflection</h2>
+<p>In this week’s training, the number of hand-drawn polygons was limited, with only about a dozen for each category, making it difficult for the model to fully learn the spectral characteristics of objects. Although pixel-level random sampling increased the sample size and improved model accuracy, it may have led to a concentration of training samples in certain areas, failing to fully reflect regional heterogeneity. In the future, we may consider more uniform or stratified sampling.</p>
+<p>During the classification process, spectral similarities between buildings and bare ground led to some confusion, highlighting the limitations of relying solely on spectral bands for classification. In the future, category discrimination could be improved by incorporating texture features or the Normalized Difference Building Index (NDBI). In complex urban environments, spectral information may not be sufficient to resolve all classification challenges; therefore, future research should explore methods that combine spatial structural features with multi-temporal data.</p>
+<p>While reviewing the literature, I noticed a cutting-edge trend of combining random forests with predictive models. For example, the paper “Simulation of Wetland Changes in the Wuhan Urban Agglomeration Based on the Integration of Random Forests and the CLUE-S Model” demonstrates how to use machine learning to extract features and couple them with spatial models for multi-scenario simulations<span class="citation" data-cites="PENG2020106671">(<a href="#ref-PENG2020106671" role="doc-biblioref">Peng et al. 2020</a>)</span>. This gives me a new idea: I could use the current Beijing classification as baseline, add models like CLUE-S or CA-Markov, and combine population and traffic data to simulate future land cover changes.</p>
+
 </section>
 
-</main>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Breiman2001RandomF" class="csl-entry" role="listitem">
+Breiman, L. 2001. <span>“Random Forests.”</span> <em>Machine Learning</em> 45: 5–32. <a href="https://api.semanticscholar.org/CorpusID:89141">https://api.semanticscholar.org/CorpusID:89141</a>.
+</div>
+<div id="ref-breiman1984classification" class="csl-entry" role="listitem">
+Breiman, Leo, Jerome Friedman, Richard A Olshen, and Charles J Stone. 1984. <em>Classification and Regression Trees</em>. 1st ed. New York: Chapman; Hall/CRC. <a href="https://doi.org/10.1201/9781315139470">https://doi.org/10.1201/9781315139470</a>.
+</div>
+<div id="ref-su172210324" class="csl-entry" role="listitem">
+Jocea, Andreea Florina, Liviu Porumb, Lucian Necula, and Dan Raducanu. 2025. <span>“Sentinel-2 Land Cover Classification: State-of-the-Art Methods and the Reality of Operational Deployment—a Systematic Review.”</span> <em>Sustainability</em> 17 (22). <a href="https://doi.org/10.3390/su172210324">https://doi.org/10.3390/su172210324</a>.
+</div>
+<div id="ref-PENG2020106671" class="csl-entry" role="listitem">
+Peng, Kaifeng, Weiguo Jiang, Yue Deng, Yinghui Liu, Zhifeng Wu, and Zheng Chen. 2020. <span>“Simulating Wetland Changes Under Different Scenarios Based on Integrating the Random Forest and CLUE-s Models: A Case Study of Wuhan Urban Agglomeration.”</span> <em>Ecological Indicators</em> 117: 106671. https://doi.org/<a href="https://doi.org/10.1016/j.ecolind.2020.106671">https://doi.org/10.1016/j.ecolind.2020.106671</a>.
+</div>
+<div id="ref-Sabaghy2025" class="csl-entry" role="listitem">
+Sabaghy, Sabah, Mohammad Abuzar, Doug Crawford, Andy McAllister, and Kathryn Sheffield. 2025. <span>“Remote Sensing for Land Cover Mapping Across Victoria, Australia – a Machine Learning Application.”</span> <em>Scientific Data</em> 12 (1): 566. <a href="https://doi.org/10.1038/s41597-025-04900-5">https://doi.org/10.1038/s41597-025-04900-5</a>.
+</div>
+</div></section></div></main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {

@@ -32,41 +32,41 @@
   {
     "objectID": "week1.html",
     "href": "week1.html",
-    "title": "4  Week1 — Getting started with remote sensing",
+    "title": "3  Week1 — Getting started with remote sensing",
     "section": "",
-    "text": "4.1 1. Summary\n“This week’s content has shifted my perspective on remote sensing imagery from merely ‘aesthetic images’ to quantifiable spectral data. Different land covers—such as water, vegetation, and buildings—possess unique spectral response characteristics, exhibiting significant variations across different bands. Sensors, in essence, capture the radiance or reflectance information of the Earth’s surface across the electromagnetic spectrum.”",
+    "text": "3.1 1. Summary\n“This week’s content has shifted my perspective on remote sensing imagery from merely ‘aesthetic images’ to quantifiable spectral data. Different land covers—such as water, vegetation, and buildings—possess unique spectral response characteristics, exhibiting significant variations across different bands. Sensors, in essence, capture the radiance or reflectance information of the Earth’s surface across the electromagnetic spectrum.”",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week1 — Getting started with remote sensing</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week1 — Getting started with remote sensing</span>"
     ]
   },
   {
     "objectID": "week1.html#summary",
     "href": "week1.html#summary",
-    "title": "4  Week1 — Getting started with remote sensing",
+    "title": "3  Week1 — Getting started with remote sensing",
     "section": "",
-    "text": "4.1.1 1.1 Four types of resolution\n\nSpatial Resolution: A smaller pixel size provides finer detail, whereas a larger pixel size is more prone to the mixed pixel effect.\nSpectral Resolution: Refers to the number and width of spectral bands. Narrower and more numerous bands allow for better differentiation of subtle spectral signatures between materials.\nTemporal Resolution: The frequency of repeat observations over the same area.\nRadiometric Resolution：This resolution defines the sensor’s sensitivity to changes in light intensity. By quantizing the received energy into finer brightness levels, higher resolution results in much smoother color or grayscale transitions.\n\n\n\n4.1.2 1.2 Feature Identification\nUtilizing QGIS and SNAP, I employed true-color/false-color composites and histogram stretching to rapidly identify the spatial patterns of water bodies, vegetation, and built-up areas. This process enabled a direct comparison of the differences in scale and level of detail between Sentinel and Landsat imagery. Beyond mere visual observation, this step involves a quality screening for issues such as cloud cover, shadows, stripping, and edge NoData values, providing a basis for defining AOIs and sampling strategies in subsequent stages.",
+    "text": "3.1.1 1.1 Four types of resolution\n\nSpatial Resolution: A smaller pixel size provides finer detail, whereas a larger pixel size is more prone to the mixed pixel effect.\nSpectral Resolution: Refers to the number and width of spectral bands. Narrower and more numerous bands allow for better differentiation of subtle spectral signatures between materials.\nTemporal Resolution: The frequency of repeat observations over the same area.\nRadiometric Resolution：This resolution defines the sensor’s sensitivity to changes in light intensity. By quantizing the received energy into finer brightness levels, higher resolution results in much smoother color or grayscale transitions.\n\n\n\n3.1.2 1.2 Feature Identification\nUtilizing QGIS and SNAP, I employed true-color/false-color composites and histogram stretching to rapidly identify the spatial patterns of water bodies, vegetation, and built-up areas. This process enabled a direct comparison of the differences in scale and level of detail between Sentinel and Landsat imagery. Beyond mere visual observation, this step involves a quality screening for issues such as cloud cover, shadows, stripping, and edge NoData values, providing a basis for defining AOIs and sampling strategies in subsequent stages.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week1 — Getting started with remote sensing</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week1 — Getting started with remote sensing</span>"
     ]
   },
   {
     "objectID": "week1.html#applications",
     "href": "week1.html#applications",
-    "title": "4  Week1 — Getting started with remote sensing",
-    "section": "4.2 2. Applications",
-    "text": "4.2 2. Applications\n\n4.2.1 2.1 Processing levels\nThe most common classification for mainstream remote sensing products is based on their processing levels. Specifically, NASA’s Level 0–4 definitions serve as the widely adopted reference framework across the industry NASA Data Processing Levels Processing Levels.\n\nRemote Sensing Data Processing Levels\n\n\n\n\n\n\n\nLevel\nName\nKey definitions\n\n\n\n\nL0\nRaw Data\nRaw sensor streams, typically as original telemetry packets.\n\n\nL1\nGeometric Correction\nData is converted to physical units with Earth location information attached.\n\n\nL2\nSurface Physical Variables\nDerived geophysical variables. The most critical step is Atmospheric Correction\n\n\nL3\nSpatio-temporal Composites\nMapped and gridded variables. Data is resampled onto a global or regional grid, often involving spatial mosaicking and temporal compositing.\n\n\nL4\nHigher-level Analysis Products\nIntegrated output from models.\n\n\n\n\n\n4.2.2 3.1 Key Sensors\n\nSentinel-1 (SAR), with its cloud-penetrating and day-and-night imaging capabilities, is the preferred choice for event monitoring in cloudy or disaster-stricken scenarios.\nSentinel-2 is better suited for fine-grained surface interpretation, such as urban textures, detailed vegetation and water distribution, or short-term changes.\nLandsat’s long-term data record and stable calibration make it ideal for long-term trend analysis, including decadal land-use changes and urban expansion.\nMODIS and VIIRS excel due to their high temporal resolution, capturing seasonal dynamics and regional indicators.",
+    "title": "3  Week1 — Getting started with remote sensing",
+    "section": "3.2 2. Applications",
+    "text": "3.2 2. Applications\n\n3.2.1 2.1 Processing levels\nThe most common classification for mainstream remote sensing products is based on their processing levels. Specifically, NASA’s Level 0–4 definitions serve as the widely adopted reference framework across the industry NASA Data Processing Levels Processing Levels.\n\nRemote Sensing Data Processing Levels\n\n\n\n\n\n\n\nLevel\nName\nKey definitions\n\n\n\n\nL0\nRaw Data\nRaw sensor streams, typically as original telemetry packets.\n\n\nL1\nGeometric Correction\nData is converted to physical units with Earth location information attached.\n\n\nL2\nSurface Physical Variables\nDerived geophysical variables. The most critical step is Atmospheric Correction\n\n\nL3\nSpatio-temporal Composites\nMapped and gridded variables. Data is resampled onto a global or regional grid, often involving spatial mosaicking and temporal compositing.\n\n\nL4\nHigher-level Analysis Products\nIntegrated output from models.\n\n\n\n\n\n3.2.2 3.1 Key Sensors\n\nSentinel-1 (SAR), with its cloud-penetrating and day-and-night imaging capabilities, is the preferred choice for event monitoring in cloudy or disaster-stricken scenarios.\nSentinel-2 is better suited for fine-grained surface interpretation, such as urban textures, detailed vegetation and water distribution, or short-term changes.\nLandsat’s long-term data record and stable calibration make it ideal for long-term trend analysis, including decadal land-use changes and urban expansion.\nMODIS and VIIRS excel due to their high temporal resolution, capturing seasonal dynamics and regional indicators.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week1 — Getting started with remote sensing</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week1 — Getting started with remote sensing</span>"
     ]
   },
   {
     "objectID": "week1.html#reflection",
     "href": "week1.html#reflection",
-    "title": "4  Week1 — Getting started with remote sensing",
-    "section": "4.3 3. Reflection",
-    "text": "4.3 3. Reflection\nI used to rely more on QGIS/SNAP because it is highly intuitive: by switching a band combination or applying a simple stretch, differences between land-cover types become visible immediately. It is also easier to spot issues such as cloud and shadow contamination. However, this week I realised that as the data scale grows, the strengths of SNAP can turn into limitations: the same steps must be repeated manually, the workflow is harder to standardise, and it becomes more difficult to ensure consistent processing choices across runs. By contrast, code-based approaches feel more abstract at first, because they require translating what I do in the software into variables, parameters, and functions. Yet once the workflow is scripted, it can be run in batch, reused across datasets, and every processing decision is recorded. Going forward, an ideal strategy for me is to use the SNAP for rapid exploration and quality control, while relying on code for reproducible, scalable batch processing and quantitative analysis—reducing repetitive work and improving the reliability of my research.",
+    "title": "3  Week1 — Getting started with remote sensing",
+    "section": "3.3 3. Reflection",
+    "text": "3.3 3. Reflection\nI used to rely more on QGIS/SNAP because it is highly intuitive: by switching a band combination or applying a simple stretch, differences between land-cover types become visible immediately. It is also easier to spot issues such as cloud and shadow contamination. However, this week I realised that as the data scale grows, the strengths of SNAP can turn into limitations: the same steps must be repeated manually, the workflow is harder to standardise, and it becomes more difficult to ensure consistent processing choices across runs. By contrast, code-based approaches feel more abstract at first, because they require translating what I do in the software into variables, parameters, and functions. Yet once the workflow is scripted, it can be run in batch, reused across datasets, and every processing decision is recorded. Going forward, an ideal strategy for me is to use the SNAP for rapid exploration and quality control, while relying on code for reproducible, scalable batch processing and quantitative analysis—reducing repetitive work and improving the reliability of my research.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week1 — Getting started with remote sensing</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week1 — Getting started with remote sensing</span>"
     ]
   },
   {
@@ -112,61 +112,61 @@
   {
     "objectID": "week4.html",
     "href": "week4.html",
-    "title": "6  Week4——Policy",
+    "title": "6  Week4 —— Policy",
     "section": "",
     "text": "6.1 1. Introduction\nAhmedabad is one of India’s typical high-temperature cities and has experienced frequent extreme heat waves over the past few decades. As urbanization progresses, the increase in impervious surfaces and the reduction in green spaces have further exacerbated the urban heat island effect. After analyzing data from 2002 to 2018, (A. Sharma et al. 2024) found a significant association between extreme heat events and all-cause mortality. Extreme heat is no longer merely a climatic phenomenon; it poses a substantial threat to public health.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week4——Policy</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week4 —— Policy</span>"
     ]
   },
   {
     "objectID": "week4.html#introduction",
     "href": "week4.html#introduction",
-    "title": "6  Week4——Policy",
+    "title": "6  Week4 —— Policy",
     "section": "",
     "text": "Association between Maximum Temperature and Mortality Risk. Resource: (A. Sharma et al. 2024).",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week4——Policy</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week4 —— Policy</span>"
     ]
   },
   {
     "objectID": "week4.html#ahmedabad-2016-heat-action-plan",
     "href": "week4.html#ahmedabad-2016-heat-action-plan",
-    "title": "6  Week4——Policy",
+    "title": "6  Week4 —— Policy",
     "section": "6.2 2. Ahmedabad 2016 Heat Action Plan",
     "text": "6.2 2. Ahmedabad 2016 Heat Action Plan\nAgainst this backdrop, Ahmedabad began to gradually explore systematic measures to address heatwaves, the most notable of which is the Ahmedabad Heat Action Plan. This policy is considered the first city-level heat-related health response plan in South Asia. It primarily aims to reduce the risks through early warning systems, public awareness campaigns, and interagency collaboration.\n\n\n\n\n\n\n\nAhmedabad Heat Action Plan 2019\n\n\nAs the policy was implemented, attention gradually turned to its effectiveness. Research findings indicate that following the policy’s implementation, the risk of heat-related deaths has decreased (Hess et al. 2018).This result demonstrates that policy interventions can, to some extent, mitigate the impacts of extreme weather. This has led me to further consider whether disparities in heat risk persist across different areas within the city, and whether existing policies are capable of adequately identifying these disparities.\nCurrent analytical methods remain primarily based on meteorological warnings and city-wide responses, with relatively limited attention paid to spatial variations within cities. Differences in vegetation cover, building density, and socioeconomic conditions across different areas all influence their sensitivity to high temperatures. Therefore, how to more precisely identify the distribution of heat risk within cities and provide support for more targeted interventions has become a topic worthy of further exploration.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week4——Policy</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week4 —— Policy</span>"
     ]
   },
   {
     "objectID": "week4.html#data",
     "href": "week4.html#data",
-    "title": "6  Week4——Policy",
+    "title": "6  Week4 —— Policy",
     "section": "6.3 3. Data",
     "text": "6.3 3. Data\nGiven the limitations of existing Heat Action Plans in terms of spatial resolution. The incorporation of remote sensing data can help provide a better understanding of variations in heat exposure within cities. By analyzing multi-source remote sensing data, it is possible to identify which communities are more vulnerable to high temperatures. Furthermore, by combining this information with data on vegetation cover and water body distribution, we can pinpoint areas lacking natural factors that help mitigate heat stress.\nThe raw data for LST primarily comes from thermal infrared imagery (TIRS) captured by the Landsat-8 satellite. Surface emissivity is derived from the thermal infrared band, and surface temperature for each pixel is estimated through atmospheric correction and radiometric calibration. Some researchers have further utilized multispectral and high-resolution imagery to downscale LST to a 10-meter resolution, capturing spatial variations in the urban thermal environment(S. Sharma et al. 2023)\n\n\n\nVisual comparison between 30m and 10m pixel size of ahmedabad airport runway (tarmac). Resource: (S. Sharma et al. 2023)\n\n\nRaw NDVI data is derived from the visible and near-infrared bands of Landsat-8 or Sentinel-2. This index can be used to identify areas within cities with abundant or scarce green space, and when combined with LST data, it can be used to analyze the role of green space in mitigating high temperatures. Previous studies have also shown that vegetation and water bodies exhibit a negative correlation with surface temperature in the urban heat environment of Ahmedabad. Areas with abundant vegetation typically have lower temperatures(Mohammad, Goswami, and Bonafoni 2019).\n\n\n\nPearson’s correlation between SUHII (2003–2018) and different potential drivers during daytime and nighttime, in the summer and winter season. (Mohammad, Goswami, and Bonafoni 2019)",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week4——Policy</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week4 —— Policy</span>"
     ]
   },
   {
     "objectID": "week4.html#application",
     "href": "week4.html#application",
-    "title": "6  Week4——Policy",
+    "title": "6  Week4 —— Policy",
     "section": "6.4 4. Application",
     "text": "6.4 4. Application\nAs we mentioned earlier, we can now obtain Land Surface Temperature (LST) data with 10-meter resolution and detailed vegetation cover (NDVI) data. The most direct application of this is to transform these data into a high-resolution urban heat island diagnosis map. We no longer need to rely on citywide weather forecasts. Satellite imagery can provide precision down to the block or even street level, directly identifying which specific buildings and neighborhoods are currently in the furnace.\nWhen a heat wave strikes, the government won’t have to cast a wide net across the entire city. Where should cooling centers and temporary water stations be set up? In which areas should ambulances be on standby? Simply deploy resources directly to the red zones with the highest LST readings. At the same time, heat warnings no longer need to be broadcast citywide. Instead, by combining this data, targeted alerts can be sent to high-risk communities with dense populations and poor green space coverage, reminding residents to take precautions. Furthermore, by overlaying this data with population density or socioeconomic data. We can identify areas with high heat exposure and high vulnerability, which is critical for developing more equitable policies.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week4——Policy</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week4 —— Policy</span>"
     ]
   },
   {
     "objectID": "week4.html#reflections",
     "href": "week4.html#reflections",
-    "title": "6  Week4——Policy",
+    "title": "6  Week4 —— Policy",
     "section": "6.5 5. Reflections",
     "text": "6.5 5. Reflections\nThe results derived from satellite image analysis are free from subjective bias. They enable decision-makers to quickly bypass the debate over “where resources are most needed” and move directly to the implementation phase of “how to carry out interventions.” Furthermore, since this data is inexpensive to obtain and updated rapidly, it significantly reduces the burden on field staff responsible for data collection.\nHowever, Satellites measure surface temperatures，such as how hot a rooftop or asphalt road is. This does not equate to the air temperature or indoor temperature that residents actually experience. An area with extremely high LST and low NDVI could be a large, modern shopping mall with central air conditioning. Conversely, an urban village that appears to be surrounded by greenery may actually consist of shantytowns built with corrugated iron roofs and extremely poor ventilation, where residents are enduring deadly indoor heat. Relying solely on “red zones” on satellite imagery to allocate relief supplies can easily lead to a severe misallocation of resources.\n\n\n\n\nHess, Jeremy J., Sathish LM, Kim Knowlton, Shubhayu Saha, Priya Dutta, Parthasarathi Ganguly, Abhiyant Tiwari, et al. 2018. “Building Resilience to Climate Change: Pilot Evaluation of the Impact of India’s First Heat Action Plan on All-Cause Mortality.” Journal of Environmental and Public Health 2018 (1): 7973519. https://doi.org/https://doi.org/10.1155/2018/7973519.\n\n\nMohammad, Pir, Ajanta Goswami, and Stefania Bonafoni. 2019. “The Impact of the Land Cover Dynamics on Surface Urban Heat Island Variations in Semi-Arid Cities: A Case Study in Ahmedabad City, India, Using Multi-Sensor/Source Data.” Sensors 19 (17). https://doi.org/10.3390/s19173701.\n\n\nSharma, Ayushi, Priya Dutta, Priyanka Shah, Veena Iyer, Hao He, Amir Sapkota, Chuansi Gao, and Yu-Chun Wang. 2024. “Characterizing the Effects of Extreme Heat Events on All-Cause Mortality: A Case Study in Ahmedabad City of India, 2002–2018.” Urban Climate 54: 101832. https://doi.org/https://doi.org/10.1016/j.uclim.2024.101832.\n\n\nSharma, Srashti, Aashutosh Singh, Rahul Kumar, and Anand Mehta. 2023. “Analysis of Land Surface Temperature at 10-Meter Pixel Size (Spatial Resolution) for Ahmedabad City.” In 2023 International Conference on Computational Intelligence and Sustainable Engineering Solutions (CISES), 134–38. https://doi.org/10.1109/CISES58720.2023.10183518.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week4——Policy</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week4 —— Policy</span>"
     ]
   },
   {
@@ -177,6 +177,56 @@
     "text": "Cao, Cong-Yin, Meng-Ting Li, Yang-Jun Deng, Longfei Ren, Yi Liu, and\nXing-Hui Zhu. 2024. “Joint Sparse Local Linear Discriminant\nAnalysis for Feature Dimensionality Reduction of Hyperspectral\nImages.” Remote Sensing 16 (22). https://doi.org/10.3390/rs16224287.\n\n\nHess, Jeremy J., Sathish LM, Kim Knowlton, Shubhayu Saha, Priya Dutta,\nParthasarathi Ganguly, Abhiyant Tiwari, et al. 2018. “Building\nResilience to Climate Change: Pilot Evaluation of the Impact of India’s\nFirst Heat Action Plan on All-Cause Mortality.” Journal of\nEnvironmental and Public Health 2018 (1): 7973519.\nhttps://doi.org/https://doi.org/10.1155/2018/7973519.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\nMohammad, Pir, Ajanta Goswami, and Stefania Bonafoni. 2019. “The\nImpact of the Land Cover Dynamics on Surface Urban Heat Island\nVariations in Semi-Arid Cities: A Case Study in Ahmedabad City, India,\nUsing Multi-Sensor/Source Data.” Sensors 19 (17). https://doi.org/10.3390/s19173701.\n\n\nRoy, Swalpa Kumar, Gopal Krishna, Shiv Ram Dubey, and Bidyut B.\nChaudhuri. 2020. “HybridSN: Exploring 3-d–2-d CNN Feature\nHierarchy for Hyperspectral Image Classification.” IEEE\nGeoscience and Remote Sensing Letters 17 (2): 277–81. https://doi.org/10.1109/LGRS.2019.2918719.\n\n\nSharma, Ayushi, Priya Dutta, Priyanka Shah, Veena Iyer, Hao He, Amir\nSapkota, Chuansi Gao, and Yu-Chun Wang. 2024. “Characterizing the\nEffects of Extreme Heat Events on All-Cause Mortality: A Case Study in\nAhmedabad City of India, 2002–2018.” Urban Climate 54:\n101832. https://doi.org/https://doi.org/10.1016/j.uclim.2024.101832.\n\n\nSharma, Srashti, Aashutosh Singh, Rahul Kumar, and Anand Mehta. 2023.\n“Analysis of Land Surface Temperature at 10-Meter Pixel Size\n(Spatial Resolution) for Ahmedabad City.” In 2023\nInternational Conference on Computational Intelligence and Sustainable\nEngineering Solutions (CISES), 134–38. https://doi.org/10.1109/CISES58720.2023.10183518.\n\n\nWang, Zhao, Fenlong Jiang, Tongfei Liu, Fei Xie, and Peng Li. 2021.\n“Attention-Based Spatial and Spectral Network with PCA-Guided\nSelf-Supervised Feature Extraction for Change Detection in Hyperspectral\nImages.” Remote Sensing 13 (23). https://doi.org/10.3390/rs13234927.\n\n\nZabalza, Jaime, Jinchang Ren, Mingqiang Yang, Yi Zhang, Jun Wang,\nStephen Marshall, and Junwei Han. 2014. “Novel Folded-PCA for\nImproved Feature Extraction and Data Reduction with Hyperspectral\nImaging and SAR in Remote Sensing.” ISPRS Journal of\nPhotogrammetry and Remote Sensing 93: 112–22. https://doi.org/https://doi.org/10.1016/j.isprsjprs.2014.04.006.",
     "crumbs": [
       "References"
+    ]
+  },
+  {
+    "objectID": "week2.html",
+    "href": "week2.html",
+    "title": "4  Week 2",
+    "section": "",
+    "text": "```{=html}",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 2</span>"
+    ]
+  },
+  {
+    "objectID": "week5.html",
+    "href": "week5.html",
+    "title": "7  Week5 – Meet Earth Google Engine",
+    "section": "",
+    "text": "7.1 Introduction\nRevisiting Google Earth Engine (GEE) this week instantly brought back memories of my first encounter with this technology during my undergraduate studies. Back then, I tried using GEE to analyze urban expansion, and what impressed me most was how convenient it was. Unlike traditional remote sensing, there was no need to search for data on official websites, endure lengthy download processes, or consume vast amounts of local storage. With just a few lines of simple code, I could directly access massive historical datasets in the cloud for analysis and instantly render the results in an intuitive, interactive world map below the editor. It shattered my preconceived notion that remote sensing software had to process data locally.\nMy favorite part is Google Earth Engine’s Data Catalog. Essentially, it’s GEE’s official data repository. Basically, it brings together a wide variety of geospatial data from the 1970s to the present, including the widely used Landsat and Sentinel satellite imagery, as well as ready-to-use products such as temperature, precipitation, and land cover classifications.\nIt is closely integrated with GEE’s actual workflow. After searching for and selecting a dataset on the Catalog page, you can directly access the raw data in the cloud for analysis without needing to download any files yourself. It acts like an online manual, helping you look up band parameters and view the data’s temporal coverage, and allowing you to jump directly to the programming interface with a single click to get started.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week5 -- Meet Earth Google Engine</span>"
+    ]
+  },
+  {
+    "objectID": "week5.html#introduction",
+    "href": "week5.html#introduction",
+    "title": "7  Week5 – Meet Earth Google Engine",
+    "section": "",
+    "text": "Google Earth Engine Code Editor\n\n\n\n\n\n\nGoogle Earth Engine Catalog Page",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week5 -- Meet Earth Google Engine</span>"
+    ]
+  },
+  {
+    "objectID": "week5.html#application",
+    "href": "week5.html#application",
+    "title": "7  Week5 – Meet Earth Google Engine",
+    "section": "7.2 Application",
+    "text": "7.2 Application\nOne aspect I found particularly interesting during my studies was the GEE App. Unlike simply writing code to perform analyses, GEE allows you to turn the entire analysis process into an interactive web application, enabling users to view results through a simple interface without needing to understand the code itself.\nI’ve looked at some existing GEE apps. One that left a particularly strong impression on me is the Global Forest Change app, which is primarily used to visualize changes in forest cover and deforestation on a global scale. It presents what are typically complex remote sensing analysis results in a very intuitive way—for example, using red to indicate forest loss and green to indicate existing forests—so that even users without prior background knowledge can quickly understand the data. Additionally, it makes excellent use of time-series data, allowing users to view changes over multiple years rather than just at a single point in time.\n\n\n\nGlobal Forest Change app\n\n\nIf you’d like to learn more, watch the video below for a clearer understanding of the GEE App’s design and applications.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week5 -- Meet Earth Google Engine</span>"
+    ]
+  },
+  {
+    "objectID": "week5.html#reflection",
+    "href": "week5.html#reflection",
+    "title": "7  Week5 – Meet Earth Google Engine",
+    "section": "7.3 Reflection",
+    "text": "7.3 Reflection\nTo be honest, after working with GEE this week, my biggest takeaway is that I probably never want to go back to the old way of working with traditional software like ArcGIS or ENVI. With those traditional software tools, I had to remember complicated steps every time I ran a process. Clicking the right icon, entering the correct parameters. If you clicked the wrong button or wanted to change a parameter, you’d almost have to start from scratch. Writing code in GEE might be a bit overwhelming at first, but it’s truly ideal for processing large volumes of files, and you can open and run it directly later on. I can modify any step in the workflow, and the entire process is crystal clear and fully reproducible.\nHowever, GEE is definitely not perfect, and I’ve run into a few frustrating hurdles in the past.\n\nThe computational performance isn’t very strong. As soon as you try to process images that are slightly larger or have higher resolution, the progress bar moves extremely slowly. I often find myself staring at the screen for ages, only to end up with a “Computation timed out” error.\nIts preprocessing workflow is somewhat of a “black box.” While it’s convenient to receive fully processed data, this also means we lose the ability to choose different preprocessing methods (such as atmospheric correction or terrain correction algorithms).\nWhat frustrates me the most is its debugging mechanism. In RStudio or VS Code, we can test code in blocks, but with GEE, you almost always have to run the entire script from start to finish. If an error occurs midway through, it’s difficult to determine whether the problem lies in the code logic or if the cloud server itself has stalled. I find this approach extremely time-consuming.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week5 -- Meet Earth Google Engine</span>"
     ]
   }
 ]

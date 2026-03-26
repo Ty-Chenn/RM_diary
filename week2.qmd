@@ -1,3 +1,3 @@
 # Week 2
 
-\`\`\`{=html} <iframe src="week2.html" width="100%" height="500px" style="border: 2px solid #ccc;"></iframe>
+\`\`\`{=html} <iframe src="_week2ppt.html" width="100%" height="500px" style="border: 2px solid #ccc;"></iframe>

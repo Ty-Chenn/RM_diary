@@ -4,15 +4,18 @@ project:
 
 book:
   title: "RMweekly"
-  author: "Norah Jones"
-  date: "1/20/2026"
+  author: "Tianyi Chen"
+  date: "3/27/2026"
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
     - week1.qmd
+    - week2.qmd
     - week3.qmd
     - week4.qmd
+    - week5.qmd
+    - week6.qmd
+    
     - references.qmd
 
 bibliography: references.bib
