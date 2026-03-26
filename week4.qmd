@@ -15,7 +15,9 @@ Ahmedabad is one of India’s typical high-temperature cities and has experience
 
 Against this backdrop, Ahmedabad began to gradually explore systematic measures to address heatwaves, the most notable of which is the Ahmedabad Heat Action Plan. This policy is considered the first city-level heat-related health response plan in South Asia. It primarily aims to reduce the risks through early warning systems, public awareness campaigns, and interagency collaboration.
 
-[![Ahmedabad Heat Action Plan 2019](images/clipboard-1704754376.png){fig-align="center" width="341"}](https://www.nrdc.org/sites/default/files/ahmedabad-heat-action-plan-2016.pdf)
+::: {style="text-align: center;"}
+[![Ahmedabad Heat Action Plan 2019](images/clipboard-1704754376.png){width="341"}](https://www.nrdc.org/sites/default/files/ahmedabad-heat-action-plan-2016.pdf)
+:::
 
 As the policy was implemented, attention gradually turned to its effectiveness. Research findings indicate that following the policy’s implementation, the risk of heat-related deaths has decreased [@https://doi.org/10.1155/2018/7973519].This result demonstrates that policy interventions can, to some extent, mitigate the impacts of extreme weather. This has led me to further consider whether disparities in heat risk persist across different areas within the city, and whether existing policies are capable of adequately identifying these disparities.
 
@@ -38,6 +40,18 @@ Raw NDVI data is derived from the visible and near-infrared bands of Landsat-8 o
 As we mentioned earlier, we can now obtain Land Surface Temperature (LST) data with 10-meter resolution and detailed vegetation cover (NDVI) data. The most direct application of this is to transform these data into a high-resolution urban heat island diagnosis map. We no longer need to rely on citywide weather forecasts. Satellite imagery can provide precision down to the block or even street level, directly identifying which specific buildings and neighborhoods are currently in the furnace.
 
 When a heat wave strikes, the government won’t have to cast a wide net across the entire city. Where should cooling centers and temporary water stations be set up? In which areas should ambulances be on standby? Simply deploy resources directly to the red zones with the highest LST readings. At the same time, heat warnings no longer need to be broadcast citywide. Instead, by combining this data, targeted alerts can be sent to high-risk communities with dense populations and poor green space coverage, reminding residents to take precautions. Furthermore, by overlaying this data with population density or socioeconomic data. We can identify areas with high heat exposure and high vulnerability, which is critical for developing more equitable policies.
+
+::::: {#fancy-layout style="display: flex; gap: 20px; justify-content: center; align-items: flex-start;"}
+::: {#first-pic style="width: 45%; text-align: center;"}
+[![SDG 3: Good Health and Well-being](images/clipboard-3132421310.png){width="51%"}](https://sdgs.un.org/goals)
+:::
+
+::: {#second-pic style="width: 45%; text-align: center;"}
+[![SDG 11: Sustainable Cities and Communities](images/clipboard-1082032997.png){width="48%"}](https://sdgs.un.org/goals)
+:::
+:::::
+
+From a broader perspective, optimizing heat action plans using high-resolution spatial data is a key pathway to achieving the United Nations Sustainable Development Goals. First, this directly contributes to Goal 11 (Sustainable Cities and Communities) by precisely identifying surface temperatures to determine how cities can improve infrastructure and enhance their resilience to climate-related disasters. Second, this data-driven approach helps reduce health inequalities, aligning with Goal 3 (Good Health and Well-being), and ensures that marginalized groups are not left behind during extreme heat waves due to their disadvantaged geographic locations or economic circumstances. However, as mentioned earlier, data technology must be integrated with practical socioeconomic realities to truly realize a sustainable future.
 
 ## 5. Reflections
 
