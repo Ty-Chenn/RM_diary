@@ -65,46 +65,6 @@
 \fi
 \makeatother
 
-\usepackage{color}
-\usepackage{fancyvrb}
-\newcommand{\VerbBar}{|}
-\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
-\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-% Add ',fontsize=\small' for more characters per line
-\usepackage{framed}
-\definecolor{shadecolor}{RGB}{241,243,245}
-\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.40,0.45,0.13}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\ExtensionTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.28,0.35,0.67}{#1}}
-\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.46,0.62}{#1}}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
-\newcommand{\NormalTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\RegionMarkerTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.07,0.07,0.07}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
 
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
@@ -258,18 +218,50 @@
 
 \markboth{Introduction}{Introduction}
 
-This is a Quarto book. To learn more about Quarto books visit
-\url{https://quarto.org/docs/books}.
+\section*{About me}\label{about-me}
+\addcontentsline{toc}{section}{About me}
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\DecValTok{1} \SpecialCharTok{+} \DecValTok{1}
-\end{Highlighting}
-\end{Shaded}
+\markright{About me}
 
-\begin{verbatim}
-[1] 2
-\end{verbatim}
+\textbf{Welcome to my remote sensing hub!} I'm Tianyi Chen, an MSc Urban
+Spatial Science student at UCL. This digital space is dedicated to
+documenting my journey through the CASA0023 module. Whether I'm trying
+to make sense of spatial algorithms or just exploring the city, I'm
+always looking for new ways to understand our urban environments.
+
+\begin{center}
+\includegraphics[width=5.21875in,height=\textheight,keepaspectratio]{images/clipboard-3563974152.jpeg}
+\end{center}
+
+In this diary after exploring various global case studies in the initial
+weeks, I decided to shift my focus closer to my hometown, Beijing, as
+the primary study area. Leveraging Earth observation data allows me to
+step outside my everyday, ground-level experience and gain fresh,
+data-driven insights into a city I thought I knew so well.
+
+\section*{Contents}\label{contents}
+\addcontentsline{toc}{section}{Contents}
+
+\markright{Contents}
+
+In this diary, I will cover the summary, applications, and my own
+reflections on each week of the module with the following structure:
+
+\textbf{Week 1}: Getting started with remote sensing
+
+\textbf{Week 2}: Landsat xaringan presentation
+
+\textbf{Week 3}: Feature Extraction and Dimension Reduction
+
+\textbf{Week 4}: Policy
+
+\textbf{Week 5}: Meet Earth Google Engine
+
+\textbf{Week 6:} Classification 1
+
+\textbf{Week 7}: Classification 2
+
+\textbf{Week 8}: Temperature
 
 \bookmarksetup{startatroot}
 
@@ -410,9 +402,8 @@ repetitive work and improving the reliability of my research.
 
 \bookmarksetup{startatroot}
 
-\chapter{Week 2}\label{week-2}
-
-\section{Landsat}\label{landsat}
+\chapter{Landsat xaringan
+presentation}\label{landsat-xaringan-presentation}
 
 \bookmarksetup{startatroot}
 
@@ -442,9 +433,15 @@ absorbs red light, while the cellular structure of plants strongly
 reflects near-infrared light), the calculation is performed using the
 following formula: \[NDVI = \frac{B5 - B4}{B5 + B4}\]
 
-\begin{center}
-\pandocbounded{\includegraphics[keepaspectratio]{week3/images/clipboard-3431523994.png}}
-\end{center}
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{week3/images/clipboard-3431523994.png}}
+
+}
+
+\caption{Cape Town NDVI}
+
+\end{figure}%
 
 In the analysis of the Cape Town region, after calculating the NDVI for
 the entire area, we set a threshold of 0.2. By masking areas with values
@@ -452,9 +449,15 @@ below this threshold, we successfully removed large areas of
 non-vegetation backgrounds, such as the ocean, dense urban structures,
 and bare soil. This process yielded a clean, valid vegetation cover map.
 
-\begin{center}
-\pandocbounded{\includegraphics[keepaspectratio]{week3/images/clipboard-3663781118.png}}
-\end{center}
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{week3/images/clipboard-3663781118.png}}
+
+}
+
+\caption{Cape Town NDVI}
+
+\end{figure}%
 
 \subsection{GLCM: Spatial Texture Feature
 Extraction}\label{glcm-spatial-texture-feature-extraction}
@@ -476,9 +479,15 @@ represent ``low homogeneity,'' indicating that the texture of the
 adjacent surface is fragmented, corresponding to urban built-up areas,
 dense residential zones.
 
-\begin{center}
-\pandocbounded{\includegraphics[keepaspectratio]{week3/images/clipboard-4038221735.png}}
-\end{center}
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{week3/images/clipboard-4038221735.png}}
+
+}
+
+\caption{Texture for Cape Town}
+
+\end{figure}%
 
 \subsection{PCA: Multi-source Data Fusion and Dimension
 Reduction}\label{pca-multi-source-data-fusion-and-dimension-reduction}
@@ -495,7 +504,15 @@ components, while noise and less important variation are pushed into
 later components. This helps reduce redundancy and provides clearer
 inputs for land cover classification.
 
-\pandocbounded{\includegraphics[keepaspectratio]{week3/images/PCA_perfect.png}}
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{week3/images/PCA_perfect.png}}
+
+}
+
+\caption{PCA for Cape Town}
+
+\end{figure}%
 
 \section{Application}\label{application}
 
@@ -514,9 +531,16 @@ methods(Roy et al. 2020). Essentially, the capabilities of PCA itself
 have not been enhanced; rather, the introduction of CNNs compensates for
 PCA's limitations in representing spatial information.
 
-\begin{center}
-\pandocbounded{\includegraphics[keepaspectratio]{week3/images/clipboard-1486884527.png}}
-\end{center}
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{week3/images/clipboard-1486884527.png}}
+
+}
+
+\caption{Proposed HybridSpectralNet (HybridSN) model that integrates 3-D
+and 2-D convolutions for HSI classification.(Roy et al. 2020)}
+
+\end{figure}%
 
 In addition, some studies have developed more complex processing
 workflows by combining PCA with multi-stage feature extraction
@@ -530,13 +554,19 @@ standalone feature extraction method.
 \item
   \textbf{PCA + Spatial-Spectral Fusion:} Fusing the global features
   extracted by PCA with the local features extracted by SSA
-  significantly improves the accuracy of land cover classification(Wang
-  et al. 2021).
+  significantly improves the accuracy of land cover classification.(Wang
+  et al. 2021)
 \end{itemize}
 
-\begin{center}
-\pandocbounded{\includegraphics[keepaspectratio]{week3/images/clipboard-1812895644.png}}
-\end{center}
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{week3/images/clipboard-1812895644.png}}
+
+}
+
+\caption{Framework of the proposed ASSCDN.(Wang et al. 2021)}
+
+\end{figure}%
 
 \begin{itemize}
 \tightlist
@@ -1078,7 +1108,7 @@ and traffic data to simulate future land cover changes.
 
 \bookmarksetup{startatroot}
 
-\chapter{Week7 -- Classification 2}\label{week7-classification-2}
+\chapter{Classification 2}\label{classification-2}
 
 \section{Summary}\label{summary-3}
 

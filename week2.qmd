@@ -1,5 +1,5 @@
-# Week 2
+# Landsat xaringan presentation
 
-## Landsat
+<iframe src="week2ppt_files/week2ppt1.html" width="100%" height="500px" style="border: 2px solid #ccc;">
 
-<iframe src="week2ppt_files/week2ppt1.html" width="100%" height="500px" style="border: 2px solid #ccc;"></iframe>
+</iframe>

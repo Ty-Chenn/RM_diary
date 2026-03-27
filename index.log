@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.3.25)  27 MAR 2026 14:04
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.3.25)  27 MAR 2026 15:14
  restricted system commands enabled.
 **index.tex
 (./index.tex
@@ -489,85 +489,70 @@ Package microtype Info: Loading configuration file microtype.cfg.
 File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
-) (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2025/07/28 4.6 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count313
-\FV@InFile=\read2
-\FV@TabBox=\box58
-\c@FancyVerbLine=\count314
-\FV@StepNumber=\count315
-\FV@OutFile=\write3
-) (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/framed/framed.sty
-Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip70
-\fb@frw=\dimen161
-\fb@frh=\dimen162
-\FrameRule=\dimen163
-\FrameSep=\dimen164
 ) (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
-\LTleft=\skip71
-\LTright=\skip72
-\LTpre=\skip73
-\LTpost=\skip74
-\LTchunksize=\count316
-\LTcapwidth=\dimen165
-\LT@head=\box59
-\LT@firsthead=\box60
-\LT@foot=\box61
-\LT@lastfoot=\box62
-\LT@gbox=\box63
-\LT@cols=\count317
-\LT@rows=\count318
-\c@LT@tables=\count319
-\c@LT@chunks=\count320
+\LTleft=\skip70
+\LTright=\skip71
+\LTpre=\skip72
+\LTpost=\skip73
+\LTchunksize=\count313
+\LTcapwidth=\dimen161
+\LT@head=\box58
+\LT@firsthead=\box59
+\LT@foot=\box60
+\LT@lastfoot=\box61
+\LT@gbox=\box62
+\LT@cols=\count314
+\LT@rows=\count315
+\c@LT@tables=\count316
+\c@LT@chunks=\count317
 \LT@p@ftn=\toks25
 )
-Class scrreprt Info: longtable captions redefined on input line 110.
+Class scrreprt Info: longtable captions redefined on input line 70.
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen166
-\lightrulewidth=\dimen167
-\cmidrulewidth=\dimen168
-\belowrulesep=\dimen169
-\belowbottomsep=\dimen170
-\aboverulesep=\dimen171
-\abovetopsep=\dimen172
-\cmidrulesep=\dimen173
-\cmidrulekern=\dimen174
-\defaultaddspace=\dimen175
-\@cmidla=\count321
-\@cmidlb=\count322
-\@aboverulesep=\dimen176
-\@belowrulesep=\dimen177
-\@thisruleclass=\count323
-\@lastruleclass=\count324
-\@thisrulewidth=\dimen178
+\heavyrulewidth=\dimen162
+\lightrulewidth=\dimen163
+\cmidrulewidth=\dimen164
+\belowrulesep=\dimen165
+\belowbottomsep=\dimen166
+\aboverulesep=\dimen167
+\abovetopsep=\dimen168
+\cmidrulesep=\dimen169
+\cmidrulekern=\dimen170
+\defaultaddspace=\dimen171
+\@cmidla=\count318
+\@cmidlb=\count319
+\@aboverulesep=\dimen172
+\@belowrulesep=\dimen173
+\@thisruleclass=\count320
+\@lastruleclass=\count321
+\@thisrulewidth=\dimen174
 ) (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
-\col@sep=\dimen179
-\ar@mcellbox=\box64
-\extrarowheight=\dimen180
+\col@sep=\dimen175
+\ar@mcellbox=\box63
+\extrarowheight=\dimen176
 \NC@list=\toks26
-\extratabsurround=\skip75
-\backup@length=\skip76
-\ar@cellbox=\box65
+\extratabsurround=\skip74
+\backup@length=\skip75
+\ar@cellbox=\box64
 ) (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count325
-\calc@Bcount=\count326
-\calc@Adimen=\dimen181
-\calc@Bdimen=\dimen182
-\calc@Askip=\skip77
-\calc@Bskip=\skip78
+\calc@Acount=\count322
+\calc@Bcount=\count323
+\calc@Adimen=\dimen177
+\calc@Bdimen=\dimen178
+\calc@Askip=\skip76
+\calc@Bskip=\skip77
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count327
-\calc@Cskip=\skip79
+\calc@Ccount=\count324
+\calc@Cskip=\skip78
 ) (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/mdwtools/footnote.sty
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
-\fn@notes=\box66
-\fn@width=\dimen183
+\fn@notes=\box65
+\fn@width=\dimen179
 ) (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
@@ -579,12 +564,12 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: luatex.def on input line 106.
 )
-\Gin@req@height=\dimen184
-\Gin@req@width=\dimen185
+\Gin@req@height=\dimen180
+\Gin@req@width=\dimen181
 )
-\pandoc@box=\box67
-\cslhangindent=\skip80
-\csllabelwidth=\skip81
+\pandoc@box=\box66
+\cslhangindent=\skip79
+\csllabelwidth=\skip80
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -617,19 +602,19 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count328
+\c@section@level=\count325
 ) (/Users/tinak/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-\@linkdim=\dimen186
-\Hy@linkcounter=\count329
-\Hy@pagecounter=\count330
+\@linkdim=\dimen182
+\Hy@linkcounter=\count326
+\Hy@pagecounter=\count327
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 ) (/Users/tinak/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count331
+\Hy@SavedSpaceFactor=\count328
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 )
@@ -641,21 +626,21 @@ Package hyperref Info: Plain pages OFF on input line 4216.
 Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4468.
-\c@Hy@tempcnt=\count332
+\c@Hy@tempcnt=\count329
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip19
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4807.
-\XeTeXLinkMargin=\dimen187
+\XeTeXLinkMargin=\dimen183
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count333
-\Field@Width=\dimen188
-\Fld@charsize=\dimen189
+\Fld@menulength=\count330
+\Field@Width=\dimen184
+\Fld@charsize=\dimen185
 Package hyperref Info: Hyper figures OFF on input line 6084.
 Package hyperref Info: Link nesting OFF on input line 6089.
 Package hyperref Info: Hyper index ON on input line 6092.
@@ -663,15 +648,15 @@ Package hyperref Info: backreferencing OFF on input line 6099.
 Package hyperref Info: Link coloring OFF on input line 6104.
 Package hyperref Info: Link coloring with OCG OFF on input line 6109.
 Package hyperref Info: PDF/A mode OFF on input line 6114.
-\Hy@abspage=\count334
-\c@Item=\count335
-\c@Hfootnote=\count336
+\Hy@abspage=\count331
+\c@Item=\count332
+\c@Hfootnote=\count333
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hluatex.def
 File: hluatex.def 2026-01-29 v7.01p Hyperref driver for luaTeX
-\Fld@listcount=\count337
-\c@bookmark@seq@number=\count338
+\Fld@listcount=\count334
+\c@bookmark@seq@number=\count335
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -679,10 +664,10 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
-\Hy@SectionHShift=\skip82
+\Hy@SectionHShift=\skip81
 ) (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
-\BKM@id=\count339
+\BKM@id=\count336
 )) (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
@@ -691,73 +676,73 @@ Package tocbasic Info: Loading of class-dependent code for package caption3
 
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen190
-\captionmargin=\dimen191
-\caption@leftmargin=\dimen192
-\caption@rightmargin=\dimen193
-\caption@width=\dimen194
-\caption@indent=\dimen195
-\caption@parindent=\dimen196
-\caption@hangindent=\dimen197
+\caption@tempdima=\dimen186
+\captionmargin=\dimen187
+\caption@leftmargin=\dimen188
+\caption@rightmargin=\dimen189
+\caption@width=\dimen190
+\caption@indent=\dimen191
+\caption@parindent=\dimen192
+\caption@hangindent=\dimen193
 )
-\c@caption@flags=\count340
-\c@continuedfloat=\count341
+\c@caption@flags=\count337
+\c@continuedfloat=\count338
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )) (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count342
+\c@float@type=\count339
 \float@exts=\toks28
-\float@box=\box68
+\float@box=\box67
 \@float@everytoks=\toks29
-\@floatcapt=\box69
+\@floatcapt=\box68
 )
 \@float@every@codelisting=\toks30
-\c@codelisting=\count343
+\c@codelisting=\count340
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count344
+\c@subfigure=\count341
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count345
+\c@subtable=\count342
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 238.
+Package hyperref Info: Option `colorlinks' set `true' on input line 198.
 No file index.aux.
 
 \openout1 = index.aux
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-Package scrbase Info: activating english \abstractname on input line 244.
-Package scrbase Info: activating english \partname on input line 244.
-Package scrbase Info: activating english \chaptername on input line 244.
-Package scrbase Info: activating english \appendixname on input line 244.
-Package scrbase Info: activating english \figurename on input line 244.
-Package scrbase Info: activating english \tablename on input line 244.
-Package scrbase Info: activating english \contentsname on input line 244.
-Package scrbase Info: activating english \listfigurename on input line 244.
-Package scrbase Info: activating english \listtablename on input line 244.
-Package scrbase Info: activating english \bibname on input line 244.
-Package scrbase Info: activating english \indexname on input line 244.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+Package scrbase Info: activating english \abstractname on input line 204.
+Package scrbase Info: activating english \partname on input line 204.
+Package scrbase Info: activating english \chaptername on input line 204.
+Package scrbase Info: activating english \appendixname on input line 204.
+Package scrbase Info: activating english \figurename on input line 204.
+Package scrbase Info: activating english \tablename on input line 204.
+Package scrbase Info: activating english \contentsname on input line 204.
+Package scrbase Info: activating english \listfigurename on input line 204.
+Package scrbase Info: activating english \listtablename on input line 204.
+Package scrbase Info: activating english \bibname on input line 204.
+Package scrbase Info: activating english \indexname on input line 204.
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -765,19 +750,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 244.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 204.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 244.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 204.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 244.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 204.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 244.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 204.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 244.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 204.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 244.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 204.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 244.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 204.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999967668407183.
@@ -805,7 +790,7 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 244.
+(Font)              scaled to size 10.95pt on input line 204.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999967668407183.
@@ -841,15 +826,15 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 244.
+(Font)              scaled to size 10.95pt on input line 204.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 244.
+(Font)              `operators' in the math version `normal' on input line 204.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 244.
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 204.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 244.
+(Font)              `operators' in the math version `bold' on input line 204.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 244.
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 204.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999967668407183.
@@ -885,13 +870,13 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex2;"
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 244.
+(Font)              `symbols' in the math version `normal' on input line 204.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 244.
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 204.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 244.
+(Font)              `symbols' in the math version `bold' on input line 204.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 244.
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 204.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999967668407183.
@@ -927,48 +912,48 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex3;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 244.
+(Font)              `largesymbols' in the math version `normal' on input line 204.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 244.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 204.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 244.
+(Font)              `largesymbols' in the math version `bold' on input line 204.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 244.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 204.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.665pt on input line 244.
+(Font)              scaled to size 7.665pt on input line 204.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.475pt on input line 244.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 244.
+(Font)              scaled to size 5.475pt on input line 204.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 204.
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 244.
+(Font)              scaled to size 10.95pt on input line 204.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.665pt on input line 244.
+(Font)              scaled to size 7.665pt on input line 204.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.475pt on input line 244.
+(Font)              scaled to size 5.475pt on input line 204.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 244.
+(Font)              scaled to size 10.95pt on input line 204.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.665pt on input line 244.
+(Font)              scaled to size 7.665pt on input line 204.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.475pt on input line 244.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 244.
+(Font)              scaled to size 5.475pt on input line 204.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 204.
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 244.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 204.
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Info: Redefining \microtypecontext on input line 244.
-Package microtype Info: Applying patch `item' on input line 244.
-Package microtype Info: Applying patch `toc' on input line 244.
-Package microtype Info: Applying patch `eqnum' on input line 244.
-Package microtype Info: Applying patch `footnote' on input line 244.
-Package microtype Info: Applying patch `verbatim' on input line 244.
-LaTeX Info: Redefining \microtypesetup on input line 244.
+LaTeX Info: Redefining \microtypecontext on input line 204.
+Package microtype Info: Applying patch `item' on input line 204.
+Package microtype Info: Applying patch `toc' on input line 204.
+Package microtype Info: Applying patch `eqnum' on input line 204.
+Package microtype Info: Applying patch `footnote' on input line 204.
+Package microtype Info: Applying patch `verbatim' on input line 204.
+LaTeX Info: Redefining \microtypesetup on input line 204.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
@@ -982,7 +967,7 @@ Package microtype Info: No adjustment of kerning.
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
 File: mt-LatinModernRoman.cfg 2026/02/26 v1.2 microtype config. file: Latin Modern Roman (RS)
 )
-Package hyperref Info: Link coloring ON on input line 244.
+Package hyperref Info: Link coloring ON on input line 204.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -992,23 +977,23 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 246.
+(Font)              scaled to size 14.4pt on input line 206.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 246.
+(Font)              scaled to size 10.0pt on input line 206.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 246.
+(Font)              scaled to size 7.0pt on input line 206.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 246.
+(Font)              scaled to size 14.4pt on input line 206.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 246.
+(Font)              scaled to size 10.0pt on input line 206.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 246.
+(Font)              scaled to size 7.0pt on input line 206.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 246.
+(Font)              scaled to size 14.4pt on input line 206.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 246.
+(Font)              scaled to size 10.0pt on input line 206.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 246.
+(Font)              scaled to size 7.0pt on input line 206.
 (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (/Users/tinak/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -1018,195 +1003,52 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 
 {/Users/tinak/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package tocbasic Info: character protrusion at toc deactivated on input line 251.
+Package tocbasic Info: character protrusion at toc deactivated on input line 211.
 No file index.toc.
-\tf@toc=\write4
+\tf@toc=\write3
 
-\openout4 = index.toc
+\openout3 = index.toc
 [2
 
-] [3
-
 ]
+<images/clipboard-3563974152.jpeg, id=17, 4047.12pt x 2698.08pt>
+File: images/clipboard-3563974152.jpeg Graphic file (type jpg)
+<use images/clipboard-3563974152.jpeg>
+Package luatex.def Info: images/clipboard-3563974152.jpeg  used on input line 233.
+(luatex.def)             Requested size: 377.13167pt x 251.42111pt.
+[3
+
+<./images/clipboard-3563974152.jpeg>] [4]
 chapter 1.
 Missing character: There is no ： (U+FF1A) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no ： (U+FF1A) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no ： (U+FF1A) in font [lmroman10-regular]:+tlig;!
-[4
+[5
 
 Missing character: There is no ： (U+FF1A) in font [lmroman10-regular]:+tlig;!
-] [5] [6]
+] [6] [7]
 chapter 2.
-[7
+[8
 
 ]
 chapter 3.
 <week3/images/clipboard-3431523994.png, id=56, 1405.25pt x 868.24374pt>
 File: week3/images/clipboard-3431523994.png Graphic file (type png)
 <use week3/images/clipboard-3431523994.png>
-Package luatex.def Info: week3/images/clipboard-3431523994.png  used on input line 446.
+Package luatex.def Info: week3/images/clipboard-3431523994.png  used on input line 438.
 (luatex.def)             Requested size: 1405.24658pt x 868.24162pt.
-[8
+[9
 
 ]
 <week3/images/clipboard-3663781118.png, id=65, 1405.25pt x 868.24374pt>
 File: week3/images/clipboard-3663781118.png Graphic file (type png)
 <use week3/images/clipboard-3663781118.png>
-Package luatex.def Info: week3/images/clipboard-3663781118.png  used on input line 456.
+Package luatex.def Info: week3/images/clipboard-3663781118.png  used on input line 454.
 (luatex.def)             Requested size: 1405.24658pt x 868.24162pt.
-[9<./week3/images/clipboard-3431523994.png>]
+[10<./week3/images/clipboard-3431523994.png>]
 Missing character: There is no ： (U+FF1A) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no ） (U+FF09) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no ： (U+FF1A) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no ） (U+FF09) in font [lmroman10-regular]:+tlig;!
-<week3/images/clipboard-4038221735.png, id=70, 1405.25pt x 868.24374pt>
-File: week3/images/clipboard-4038221735.png Graphic file (type png)
-<use week3/images/clipboard-4038221735.png>
-Package luatex.def Info: week3/images/clipboard-4038221735.png  used on input line 480.
-(luatex.def)             Requested size: 1405.24658pt x 868.24162pt.
-[10
-Missing character: There is no ： (U+FF1A) in font [lmroman10-regular]:+tlig;!
-Missing character: There is no ） (U+FF09) in font [lmroman10-regular]:+tlig;!
-<./week3/images/clipboard-3663781118.png>]
-<week3/images/PCA_perfect.png, id=76, 1505.625pt x 2007.5pt>
-File: week3/images/PCA_perfect.png Graphic file (type png)
-<use week3/images/PCA_perfect.png>
-Package luatex.def Info: week3/images/PCA_perfect.png  used on input line 498.
-(luatex.def)             Requested size: 1505.62134pt x 2007.49512pt.
-
-Overfull \hbox (0.83301pt too wide) in paragraph at lines 498--499
-[][] 
- []
-
-[11<./week3/images/clipboard-4038221735.png>] [12<./week3/images/PCA_perfect.png>]
-<week3/images/clipboard-1486884527.png, id=88, 823.075pt x 192.72pt>
-File: week3/images/clipboard-1486884527.png Graphic file (type png)
-<use week3/images/clipboard-1486884527.png>
-Package luatex.def Info: week3/images/clipboard-1486884527.png  used on input line 518.
-(luatex.def)             Requested size: 823.07298pt x 192.71951pt.
-<week3/images/clipboard-1812895644.png, id=89, 4043.105pt x 2645.885pt>
-File: week3/images/clipboard-1812895644.png Graphic file (type png)
-<use week3/images/clipboard-1812895644.png>
-Package luatex.def Info: week3/images/clipboard-1812895644.png  used on input line 538.
-(luatex.def)             Requested size: 4043.09518pt x 2645.87857pt.
-[13<./week3/images/clipboard-1486884527.png>] [14<./week3/images/clipboard-1812895644.png>]
-chapter 4.
-<images/clipboard-2170059669.png, id=100, 1705.37125pt x 1495.5875pt>
-File: images/clipboard-2170059669.png Graphic file (type png)
-<use images/clipboard-2170059669.png>
-Package luatex.def Info: images/clipboard-2170059669.png  used on input line 582.
-(luatex.def)             Requested size: 337.243pt x 295.75754pt.
-[15
-
-<./images/clipboard-2170059669.png>]
-<images/clipboard-1704754376.png, id=108, 767.86874pt x 993.7125pt>
-File: images/clipboard-1704754376.png Graphic file (type png)
-<use images/clipboard-1704754376.png>
-Package luatex.def Info: images/clipboard-1704754376.png  used on input line 603.
-(luatex.def)             Requested size: 256.7133pt x 332.21721pt.
-[16<./images/clipboard-1704754376.png>]
-<images/clipboard-1331033014.png, id=115, 440.64626pt x 319.1925pt>
-File: images/clipboard-1331033014.png Graphic file (type png)
-<use images/clipboard-1331033014.png>
-Package luatex.def Info: images/clipboard-1331033014.png  used on input line 651.
-(luatex.def)             Requested size: 357.6006pt x 259.03642pt.
-[17]
-<images/clipboard-2960236245.png, id=121, 3543.2375pt x 1468.48625pt>
-File: images/clipboard-2960236245.png Graphic file (type png)
-<use images/clipboard-2960236245.png>
-Package luatex.def Info: images/clipboard-2960236245.png  used on input line 671.
-(luatex.def)             Requested size: 3543.2289pt x 1468.48268pt.
-[18<./images/clipboard-1331033014.png>]
-<images/clipboard-3132421310.png, id=127, 542.025pt x 923.45pt>
-File: images/clipboard-3132421310.png Graphic file (type png)
-<use images/clipboard-3132421310.png>
-Package luatex.def Info: images/clipboard-3132421310.png  used on input line 708.
-(luatex.def)             Requested size: 227.84743pt x 388.18452pt.
-[19<./images/clipboard-2960236245.png>]
-<images/clipboard-1082032997.png, id=136, 540.0175pt x 969.6225pt>
-File: images/clipboard-1082032997.png Graphic file (type png)
-<use images/clipboard-1082032997.png>
-Package luatex.def Info: images/clipboard-1082032997.png  used on input line 719.
-(luatex.def)             Requested size: 214.43756pt x 385.03104pt.
-[20<./images/clipboard-3132421310.png>] [21<./images/clipboard-1082032997.png>]
-Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:+tlig;!
-Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:+tlig;!
-Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:+tlig;!
-[22
-Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:+tlig;!
-]
-chapter 5.
-<images/clipboard-3685114081.png, id=157, 963.6pt x 529.98pt>
-File: images/clipboard-3685114081.png Graphic file (type png)
-<use images/clipboard-3685114081.png>
-Package luatex.def Info: images/clipboard-3685114081.png  used on input line 781.
-(luatex.def)             Requested size: 963.59766pt x 529.97868pt.
-[23
-
-<./images/clipboard-3685114081.png>]
-<images/clipboard-2647060660.png, id=166, 2951.025pt x 1457.445pt>
-File: images/clipboard-2647060660.png Graphic file (type png)
-<use images/clipboard-2647060660.png>
-Package luatex.def Info: images/clipboard-2647060660.png  used on input line 798.
-(luatex.def)             Requested size: 2951.01782pt x 1457.44145pt.
-<images/clipboard-1817680799.png, id=167, 2975.115pt x 1455.4375pt>
-File: images/clipboard-1817680799.png Graphic file (type png)
-<use images/clipboard-1817680799.png>
-Package luatex.def Info: images/clipboard-1817680799.png  used on input line 835.
-(luatex.def)             Requested size: 2975.10777pt x 1455.43396pt.
-[24<./images/clipboard-2647060660.png>] [25<./images/clipboard-1817680799.png>] [26]
-chapter 6.
-[27
-
-]
-<images/clipboard-3990678885.png, id=195, 2302.6025pt x 1473.505pt>
-File: images/clipboard-3990678885.png Graphic file (type png)
-<use images/clipboard-3990678885.png>
-Package luatex.def Info: images/clipboard-3990678885.png  used on input line 958.
-(luatex.def)             Requested size: 368.10771pt x 235.56326pt.
-<images/clipboard-570344990.png, id=196, 800.9925pt x 778.91pt>
-File: images/clipboard-570344990.png Graphic file (type png)
-<use images/clipboard-570344990.png>
-Package luatex.def Info: images/clipboard-570344990.png  used on input line 975.
-(luatex.def)             Requested size: 281.54935pt x 273.78734pt.
-[28<./images/clipboard-3990678885.png>]
-<images/clipboard-1353034869.png, id=203, 3035.34pt x 1485.55pt>
-File: images/clipboard-1353034869.png Graphic file (type png)
-<use images/clipboard-1353034869.png>
-Package luatex.def Info: images/clipboard-1353034869.png  used on input line 994.
-(luatex.def)             Requested size: 3035.33263pt x 1485.54639pt.
-[29<./images/clipboard-570344990.png>]
-<images/clipboard-635645688.png, id=209, 1238.6275pt x 1134.2375pt>
-File: images/clipboard-635645688.png Graphic file (type png)
-<use images/clipboard-635645688.png>
-Package luatex.def Info: images/clipboard-635645688.png  used on input line 1030.
-(luatex.def)             Requested size: 431.37154pt x 395.01607pt.
-
-Underfull \hbox (badness 1412) in paragraph at lines 1035--1035
-[][][]|\TU/lmr/m/n/10.95 Land cover map across the Vic-to-ria state at 20m spa-tial res-o-lu-tion for
- []
-
-[30<./images/clipboard-1353034869.png>] [31<./images/clipboard-635645688.png>] [32]
-chapter 7.
-<images/clipboard-1093845086.png, id=229, 814.04124pt x 779.91376pt>
-File: images/clipboard-1093845086.png Graphic file (type png)
-<use images/clipboard-1093845086.png>
-Package luatex.def Info: images/clipboard-1093845086.png  used on input line 1129.
-(luatex.def)             Requested size: 446.7552pt x 428.02567pt.
-[33
-
-]
-<images/clipboard-3778352811.png, id=239, 800.9925pt x 816.04875pt>
-File: images/clipboard-3778352811.png Graphic file (type png)
-<use images/clipboard-3778352811.png>
-Package luatex.def Info: images/clipboard-3778352811.png  used on input line 1140.
-(luatex.def)             Requested size: 415.49184pt x 423.30183pt.
-[34<./images/clipboard-1093845086.png>]
-<images/clipboard-4075946674.png, id=246, 1664.2175pt x 938.50626pt>
-File: images/clipboard-4075946674.png Graphic file (type png)
-<use images/clipboard-4075946674.png>
-Package luatex.def Info: images/clipboard-4075946674.png  used on input line 1156.
-(luatex.def)             Requested size: 1664.21346pt x 938.50397pt.
-[35<./images/clipboard-3778352811.png>]
-<images/clipboard-2859904163.png, id=252, 806.01125pt x 778.91pt>
-File: images/clipboard-2859904163.png Graphic
+<week3/images/clipboard-4038221735.png, id=71, 1405.25pt x 868.24374pt>
+File: week3/images/clipboard-403

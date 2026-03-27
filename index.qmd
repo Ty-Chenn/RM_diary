@@ -1,7 +1,29 @@
 # Introduction {.unnumbered}
 
-This is a Quarto book. To learn more about Quarto books visit <https://quarto.org/docs/books>.
+## About me
 
-```{r}
-1 + 1
-```
+**Welcome to my remote sensing hub!** I'm Tianyi Chen, an MSc Urban Spatial Science student at UCL. This digital space is dedicated to documenting my journey through the CASA0023 module. Whether I'm trying to make sense of spatial algorithms or just exploring the city, I'm always looking for new ways to understand our urban environments.
+
+![](images/clipboard-3563974152.jpeg){fig-align="center" width="501"}
+
+In this diary after exploring various global case studies in the initial weeks, I decided to shift my focus closer to my hometown, Beijing, as the primary study area. Leveraging Earth observation data allows me to step outside my everyday, ground-level experience and gain fresh, data-driven insights into a city I thought I knew so well.
+
+## Contents
+
+In this diary, I will cover the summary, applications, and my own reflections on each week of the module with the following structure:
+
+**Week 1**: Getting started with remote sensing
+
+**Week 2**: Landsat xaringan presentation
+
+**Week 3**: Feature Extraction and Dimension Reduction
+
+**Week 4**: Policy
+
+**Week 5**: Meet Earth Google Engine
+
+**Week 6:** Classification 1
+
+**Week 7**: Classification 2
+
+**Week 8**: Temperature

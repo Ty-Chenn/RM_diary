@@ -4,7 +4,27 @@
     "href": "index.html",
     "title": "RMweekly",
     "section": "",
-    "text": "Introduction\nThis is a Quarto book. To learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "text": "Introduction",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "RMweekly",
+    "section": "About me",
+    "text": "About me\nWelcome to my remote sensing hub! I’m Tianyi Chen, an MSc Urban Spatial Science student at UCL. This digital space is dedicated to documenting my journey through the CASA0023 module. Whether I’m trying to make sense of spatial algorithms or just exploring the city, I’m always looking for new ways to understand our urban environments.\n\n\n\n\n\nIn this diary after exploring various global case studies in the initial weeks, I decided to shift my focus closer to my hometown, Beijing, as the primary study area. Leveraging Earth observation data allows me to step outside my everyday, ground-level experience and gain fresh, data-driven insights into a city I thought I knew so well.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#contents",
+    "href": "index.html#contents",
+    "title": "RMweekly",
+    "section": "Contents",
+    "text": "Contents\nIn this diary, I will cover the summary, applications, and my own reflections on each week of the module with the following structure:\nWeek 1: Getting started with remote sensing\nWeek 2: Landsat xaringan presentation\nWeek 3: Feature Extraction and Dimension Reduction\nWeek 4: Policy\nWeek 5: Meet Earth Google Engine\nWeek 6: Classification 1\nWeek 7: Classification 2\nWeek 8: Temperature",
     "crumbs": [
       "Introduction"
     ]
@@ -50,16 +70,6 @@
     ]
   },
   {
-    "objectID": "week2.html",
-    "href": "week2.html",
-    "title": "2  Week 2",
-    "section": "",
-    "text": "2.1 Landsat",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 2</span>"
-    ]
-  },
-  {
     "objectID": "week3.html",
     "href": "week3.html",
     "title": "3  Feature Extraction and Dimension Reduction",
@@ -74,7 +84,7 @@
     "href": "week3.html#summary",
     "title": "3  Feature Extraction and Dimension Reduction",
     "section": "",
-    "text": "3.1.1 NDVI: Vegetation Feature Extraction\nBased on the principle that different surface materials reflect light differently (healthy vegetation contains chlorophyll, which strongly absorbs red light, while the cellular structure of plants strongly reflects near-infrared light), the calculation is performed using the following formula: \\[NDVI = \\frac{B5 - B4}{B5 + B4}\\]\n\n\n\n\n\nIn the analysis of the Cape Town region, after calculating the NDVI for the entire area, we set a threshold of 0.2. By masking areas with values below this threshold, we successfully removed large areas of non-vegetation backgrounds, such as the ocean, dense urban structures, and bare soil. This process yielded a clean, valid vegetation cover map.\n\n\n\n\n\n\n\n3.1.2 GLCM: Spatial Texture Feature Extraction\nSatellite spectral bands mainly reflect surface color, but not spatial structure. Gray-Level Co-occurrence Matrix (GLCM) quantifies texture by analyzing grey-level variations between neighboring pixels, capturing surface smoothness or roughness.\nThe formula for converting DN to refractive index is： \\(\\rho = (DN \\times 0.0000275) - 0.2\\)）\nIn this study, using Cape Town as an example, we calculated a 7×7 window homogeneity metric from the red band. The large areas of light gray and pure white in the image represent “high homogeneity,” indicating that the surface in these areas is smooth, such as open water bodies, vegetation, or flat bare ground. The dark gray, densely spotted areas represent “low homogeneity,” indicating that the texture of the adjacent surface is fragmented, corresponding to urban built-up areas, dense residential zones.\n\n\n\n\n\n\n\n3.1.3 PCA: Multi-source Data Fusion and Dimension Reduction\nThere is typically a strong correlation between the various bands in multispectral imagery, leading to information redundancy and introducing a certain amount of noise. PCA uses an orthogonal transformation to convert these correlated layers into a set of mutually independent new variables, which are ranked by information content.\nWe applied PCA to eight spectral bands and one texture band from Cape Town. Most of the useful information is captured in the first few components, while noise and less important variation are pushed into later components. This helps reduce redundancy and provides clearer inputs for land cover classification.",
+    "text": "3.1.1 NDVI: Vegetation Feature Extraction\nBased on the principle that different surface materials reflect light differently (healthy vegetation contains chlorophyll, which strongly absorbs red light, while the cellular structure of plants strongly reflects near-infrared light), the calculation is performed using the following formula: \\[NDVI = \\frac{B5 - B4}{B5 + B4}\\]\n\n\n\nCape Town NDVI\n\n\nIn the analysis of the Cape Town region, after calculating the NDVI for the entire area, we set a threshold of 0.2. By masking areas with values below this threshold, we successfully removed large areas of non-vegetation backgrounds, such as the ocean, dense urban structures, and bare soil. This process yielded a clean, valid vegetation cover map.\n\n\n\nCape Town NDVI\n\n\n\n\n3.1.2 GLCM: Spatial Texture Feature Extraction\nSatellite spectral bands mainly reflect surface color, but not spatial structure. Gray-Level Co-occurrence Matrix (GLCM) quantifies texture by analyzing grey-level variations between neighboring pixels, capturing surface smoothness or roughness.\nThe formula for converting DN to refractive index is： \\(\\rho = (DN \\times 0.0000275) - 0.2\\)）\nIn this study, using Cape Town as an example, we calculated a 7×7 window homogeneity metric from the red band. The large areas of light gray and pure white in the image represent “high homogeneity,” indicating that the surface in these areas is smooth, such as open water bodies, vegetation, or flat bare ground. The dark gray, densely spotted areas represent “low homogeneity,” indicating that the texture of the adjacent surface is fragmented, corresponding to urban built-up areas, dense residential zones.\n\n\n\nTexture for Cape Town\n\n\n\n\n3.1.3 PCA: Multi-source Data Fusion and Dimension Reduction\nThere is typically a strong correlation between the various bands in multispectral imagery, leading to information redundancy and introducing a certain amount of noise. PCA uses an orthogonal transformation to convert these correlated layers into a set of mutually independent new variables, which are ranked by information content.\nWe applied PCA to eight spectral bands and one texture band from Cape Town. Most of the useful information is captured in the first few components, while noise and less important variation are pushed into later components. This helps reduce redundancy and provides clearer inputs for land cover classification.\n\n\n\nPCA for Cape Town",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Feature Extraction and Dimension Reduction</span>"
     ]
@@ -84,7 +94,7 @@
     "href": "week3.html#application",
     "title": "3  Feature Extraction and Dimension Reduction",
     "section": "3.2 Application",
-    "text": "3.2 Application\nPrincipal Component Analysis (PCA), as a preprocessing step for dimensionality reduction, has been widely applied in remote sensing workflows. For example, (Zabalza et al. 2014) incorporated PCA into a broader feature extraction framework for hyperspectral and Synthetic Aperture Radar (SAR) data. PCA was primarily used to reduce data dimensionality and computational load.\nSeveral recent studies have combined PCA with convolutional neural networks (CNNs). PCA is used to reduce spectral redundancy, while CNNs extract spatial features and perform classification. This approach significantly improves classification accuracy compared to traditional methods(Roy et al. 2020). Essentially, the capabilities of PCA itself have not been enhanced; rather, the introduction of CNNs compensates for PCA’s limitations in representing spatial information.\n\n\n\n\n\nIn addition, some studies have developed more complex processing workflows by combining PCA with multi-stage feature extraction techniques, thereby capturing both global and local features of the data simultaneously. This suggests that in modern remote sensing analysis, PCA is more commonly used as a dimension-reduction tool rather than as a standalone feature extraction method.\n\nPCA + Spatial-Spectral Fusion: Fusing the global features extracted by PCA with the local features extracted by SSA significantly improves the accuracy of land cover classification(Wang et al. 2021).\n\n\n\n\n\n\n\nPCA + Hybrid Manifold Learning: Within PCA, apply LPP (Locally Linear Embedding) or t-SNE to preserve the local geometric proximity of the data(Cao et al. 2024).",
+    "text": "3.2 Application\nPrincipal Component Analysis (PCA), as a preprocessing step for dimensionality reduction, has been widely applied in remote sensing workflows. For example, (Zabalza et al. 2014) incorporated PCA into a broader feature extraction framework for hyperspectral and Synthetic Aperture Radar (SAR) data. PCA was primarily used to reduce data dimensionality and computational load.\nSeveral recent studies have combined PCA with convolutional neural networks (CNNs). PCA is used to reduce spectral redundancy, while CNNs extract spatial features and perform classification. This approach significantly improves classification accuracy compared to traditional methods(Roy et al. 2020). Essentially, the capabilities of PCA itself have not been enhanced; rather, the introduction of CNNs compensates for PCA’s limitations in representing spatial information.\n\n\n\nProposed HybridSpectralNet (HybridSN) model that integrates 3-D and 2-D convolutions for HSI classification.(Roy et al. 2020)\n\n\nIn addition, some studies have developed more complex processing workflows by combining PCA with multi-stage feature extraction techniques, thereby capturing both global and local features of the data simultaneously. This suggests that in modern remote sensing analysis, PCA is more commonly used as a dimension-reduction tool rather than as a standalone feature extraction method.\n\nPCA + Spatial-Spectral Fusion: Fusing the global features extracted by PCA with the local features extracted by SSA significantly improves the accuracy of land cover classification.(Wang et al. 2021)\n\n\n\n\nFramework of the proposed ASSCDN.(Wang et al. 2021)\n\n\n\nPCA + Hybrid Manifold Learning: Within PCA, apply LPP (Locally Linear Embedding) or t-SNE to preserve the local geometric proximity of the data(Cao et al. 2024).",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Feature Extraction and Dimension Reduction</span>"
     ]
