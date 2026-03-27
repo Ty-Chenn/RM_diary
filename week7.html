@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2&nbsp; Introduction – RMweekly</title>
+<title>Week7 – Classification 2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,41 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 /* CSS for citations */
 div.csl-bib-body { }
@@ -78,159 +43,31 @@ div.csl-indent {
 }</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./week1.html" rel="next">
-<link href="./index.html" rel="prev">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
-  "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
-  }
-}</script>
+<script src="week7_files/libs/clipboard/clipboard.min.js"></script>
+<script src="week7_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="week7_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="week7_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="week7_files/libs/quarto-html/popper.min.js"></script>
+<script src="week7_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="week7_files/libs/quarto-html/anchor.min.js"></script>
+<link href="week7_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="week7_files/libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="week7_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="week7_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="week7_files/libs/bootstrap/bootstrap-d6a003b94517c951b2d65075d42fb01b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="fullcontent quarto-light">
 
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
-<!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">RMweekly</a> 
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preface</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./week1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week1 — Getting started with remote sensing</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./week2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week 2</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./week3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week3——Feature Extraction and Dimension Reduction</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./week4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week4 —— Policy</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./week5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week5 – Meet Earth Google Engine</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./week6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week6 – Classification 1</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">References</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
-<!-- main -->
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></h1>
+<h1 class="title">Week7 – Classification 2</h1>
 </div>
 
 
@@ -247,23 +84,107 @@ div.csl-indent {
 </header>
 
 
-<p>This is a book created from markdown and executable code.</p>
-<p>See <span class="citation" data-cites="knuth84">Knuth (<a href="references.html#ref-knuth84" role="doc-biblioref">1984</a>)</span> for additional discussion of literate programming.</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>This week marks a transition from basic pixel-based classification towards more advanced approaches in remote sensing, prompting me to rethink the role of the pixel as the fundamental spatial unit. In previous weeks, classification methods largely followed a simplified assumption that each pixel can be assigned to a single, discrete land cover class. While this “black-and-white” approach is methodologically straightforward, it becomes increasingly problematic in complex urban environments, often leading to biased area estimates.</p>
+<p>This week, we explored two advanced approaches for handling complex ground-level environments:</p>
+<ul>
+<li><p><strong>Sub-pixel unmixing</strong>, which introduces the concept of “gray zones” to account for spectral mixing within pixels and calculate component ratios.</p></li>
+<li><p><strong>Object-based image analysis</strong>, which breaks down the isolation of pixels in the spatial dimension by aggregating adjacent pixels into “superpixel” objects with shape and texture. This shift from “single labels” to “component ratios” and “spatially semantic objects”.</p></li>
+</ul>
+<p>The preprocessing stage already required contextual adjustment. Using Landsat 8 (L2) imagery, I relaxed the cloud filtering threshold from 1% to 5% to account for Beijing’s atmospheric conditions, followed by cloud masking and median compositing. This highlighted an early trade-off between data quality and data availability, which inevitably influences the reliability of downstream classification results.</p>
+<section id="sub-pixel-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="sub-pixel-analysis">Sub-pixel Analysis</h3>
+<p>Using the sub-pixel approach gives us a much more flexible way to look at Beijing’s mixed-up urban surface. Basically, we set up some basic categories, like buildings, water, bare dirt, and trees. Then, instead of just slapping a single label on a pixel, the model figures out the exact percentage of each thing inside it.</p>
+<div id="fancy-layout" style="display: flex; gap: 20px; justify-content: center; align-items: flex-start;">
+<div id="first-pic" style="width: 45%; text-align: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1093845086.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Endmember Abundance Composite Map</figcaption>
+</figure>
 </div>
 </div>
+<div id="second-pic" style="width: 45%; text-align: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-3778352811.png" class="img-fluid figure-img" style="width:93.0%"></p>
+<figcaption>Threshold-based Land Cover Map</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>But there’s a catch: to actually make sense of the final map and check its accuracy, we have to force those percentages into fixed, single categories. And that’s its biggest downside. Even though the percentage idea is way closer to real life, a lot of those subtle details get totally lost the moment we force them into strict boxes.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-4075946674.png" class="img-fluid figure-img"></p>
+<figcaption>Threshold-based Land Cover Map</figcaption>
+</figure>
+</div>
+</section>
+<section id="object-based-image-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="object-based-image-analysis">Object-based Image Analysis</h3>
+<p>The OBIA method makes things look more connected by grouping pixels into bigger chunks and looking at their texture. Sure, this cleans up the noise and makes the edges sharper, but in my case, the chunks ended up a bit too clunky. They formed big blocks that hid a lot of the smaller details. This just goes to show that OBIA is super picky about its settings (like how big or tight the chunks are). If you don’t tweak it just right, it struggles to catch the fine details you need for a complicated city like Beijing.</p>
+<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start;">
+<div style="width: 45%; text-align: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-2859904163.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Sub-pixel Fractional Abundance Map</figcaption>
+</figure>
+</div>
+</div>
+<div style="width: 45%; text-align: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-2072705216.png" class="img-fluid figure-img" style="width:93.0%"></p>
+<figcaption>Hardened Classification Map</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="application" class="level2">
+<h2 class="anchored" data-anchor-id="application">Application</h2>
+<p>Traditional single-label classification often struggles with medium-resolution imagery, for example, Landsat. However, studies like <span class="citation" data-cites="WU2004480">(<a href="#ref-WU2004480" role="doc-biblioref">Wu 2004</a>)</span> ingeniously applied sub-pixel unmixing via the vegetation–impervious surface–soil (V–I–S) model model. By quantifying the proportions of these components within each pixel, this technique effectively addresses the “gray zone” problem in highly mixed urban centers, providing precise abundance indicators for macro-level urban expansion and heat island assessments.</p>
+<p>However, as very high-resolution imagery becomes more common, the main challenge shifts from mixed pixels to the “salt-and-pepper” effect. <span class="citation" data-cites="MYINT20111145">(<a href="#ref-MYINT20111145" role="doc-biblioref">Myint et al. 2011</a>)</span>show that object-based methods can handle this problem much more effectively. By grouping neighbouring pixels into larger areas with similar patterns, this approach can distinguish between surfaces that look similar in colour but differ in structure, like separating textured building roofs from smoother concrete spaces.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1169381459.png" class="img-fluid figure-img" width="573"></p>
+<figcaption>A flow chart demonstrating the overall procedure to generate a final output.<span class="citation" data-cites="MYINT20111145">(<a href="#ref-MYINT20111145" role="doc-biblioref">Myint et al. 2011</a>)</span></figcaption>
+</figure>
+</div>
+<p>Although both methods are widely used in the literature, they still have clear limitations. Sub-pixel approaches can provide detailed proportions of different land cover types, but they lose information about how these elements are actually arranged within a pixel. For example, a pixel showing 50% vegetation does not reveal whether this represents a single large green space or many small, scattered trees, which limits its usefulness for practical decision making.</p>
+<p>On the other hand, object-based methods depend heavily on how the segmentation is set up, which is often based on the researcher’s own judgement (Blaschke, 2010). When applied to highly varied environments across larger areas, this approach can require repeated adjustment of parameters. It is time consuming and difficult to apply consistently at scale.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1946780496.png" class="img-fluid figure-img" width="646"></p>
+<figcaption>Architecture of the generative and discriminative networks of the GAN-SRM.<span class="citation" data-cites="9195742">(<a href="#ref-9195742" role="doc-biblioref">Shang et al. 2022</a>)</span></figcaption>
+</figure>
+</div>
+<p>Recent studies have begun to move beyond simply estimating land cover proportions by introducing deep learning approaches for higher-resolution mapping. For example, <span class="citation" data-cites="9195742">(<a href="#ref-9195742" role="doc-biblioref">Shang et al. 2022</a>)</span> applies a generative adversarial network (GAN) to produce fine-scale land cover maps from coarse imagery. Instead of only providing percentage information within each pixel, this method generates a more detailed spatial pattern, making the results more visually realistic and easier to interpret.</p>
+</section>
+<section id="reflection" class="level2">
+<h2 class="anchored" data-anchor-id="reflection">Reflection</h2>
+<p>While examining the intermediate SNIC outputs and the sub-pixel proportion maps, I noticed that striping effects from Landsat scene boundaries were quite visible. Reflecting on this, it seems that both methods are highly sensitive to absolute spectral values, which means that atmospheric differences between images from different dates or orbital paths can be unintentionally amplified.</p>
+<p>In addition, the relatively small number of training samples I used around 20 polygons per class, may limited the model’s ability to capture more subtle variations in land cover. This suggests that, beyond the choice of method or segmentation approach, the quality and diversity of training data play a crucial role in determining the final results. A more comprehensive and representative training dataset would likely improve the model’s performance, especially in complex urban environments.</p>
+<p>In short, choosing the right method involves trade-offs between detail and spatial coherence, and the optimal choice may vary depending on the complexity of the urban environment and the scale of the mapping project.</p>
 
+</section>
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
-<div id="ref-knuth84" class="csl-entry" role="listitem">
-Knuth, Donald E. 1984. <span>“Literate Programming.”</span> <em>Comput. J.</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a>.
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-MYINT20111145" class="csl-entry" role="listitem">
+Myint, Soe W., Patricia Gober, Anthony Brazel, Susanne Grossman-Clarke, and Qihao Weng. 2011. <span>“Per-Pixel Vs. Object-Based Classification of Urban Land Cover Extraction Using High Spatial Resolution Imagery.”</span> <em>Remote Sensing of Environment</em> 115 (5): 1145–61. https://doi.org/<a href="https://doi.org/10.1016/j.rse.2010.12.017">https://doi.org/10.1016/j.rse.2010.12.017</a>.
 </div>
+<div id="ref-9195742" class="csl-entry" role="listitem">
+Shang, Cheng, Xiaodong Li, Giles M. Foody, Yun Du, and Feng Ling. 2022. <span>“Superresolution Land Cover Mapping Using a Generative Adversarial Network.”</span> <em>IEEE Geoscience and Remote Sensing Letters</em> 19: 1–5. <a href="https://doi.org/10.1109/LGRS.2020.3020395">https://doi.org/10.1109/LGRS.2020.3020395</a>.
 </div>
-
-</main> <!-- /main -->
+<div id="ref-WU2004480" class="csl-entry" role="listitem">
+Wu, Changshan. 2004. <span>“Normalized Spectral Mixture Analysis for Monitoring Urban Composition Using ETM+ Imagery.”</span> <em>Remote Sensing of Environment</em> 93 (4): 480–92. https://doi.org/<a href="https://doi.org/10.1016/j.rse.2004.08.003">https://doi.org/10.1016/j.rse.2004.08.003</a>.
+</div>
+</div></section></div></main>
+<!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -664,18 +585,6 @@ Knuth, Donald E. 1984. <span>“Literate Programming.”</span> <em>Comput. J.</
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Preface">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preface</span></span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./week1.html" class="pagination-link" aria-label="Week1 — Getting started with remote sensing">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week1 — Getting started with remote sensing</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 
 

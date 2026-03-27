@@ -14,7 +14,7 @@ Why do we perform image classification? Satellite image data consists of nothing
 The core of image classification lies in the use of spectral signatures. Different land features exhibit vastly different reflectance across different spectral bands. The classifier’s task is to learn the patterns of these spectral characteristics by analyzing the training samples we provide.Then, automatically classify the pixels across the entire map.
 
 | Aspect | CART | Random Forest | Naive Bayes | SVM |
-|:---|:---|:---|:---|:---|
+|:--------------|:--------------|:--------------|:--------------|:--------------|
 | Core Idea | Recursive splitting | Ensemble voting | Probabilistic model | Max margin separation |
 | Overfitting | High | Low | Low | Medium |
 | Training Speed | Fast | Medium | Very fast | Slow |
