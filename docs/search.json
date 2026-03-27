@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "RMweekly",
+    "title": "Learning Diary",
     "section": "",
     "text": "Introduction",
     "crumbs": [
@@ -12,7 +12,7 @@
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
-    "title": "RMweekly",
+    "title": "Learning Diary",
     "section": "About me",
     "text": "About me\nWelcome to my remote sensing hub! I’m Tianyi Chen, an MSc Urban Spatial Science student at UCL. This digital space is dedicated to documenting my journey through the CASA0023 module. Whether I’m trying to make sense of spatial algorithms or just exploring the city, I’m always looking for new ways to understand our urban environments.\n\n\n\n\n\nIn this diary after exploring various global case studies in the initial weeks, I decided to shift my focus closer to my hometown, Beijing, as the primary study area. Leveraging Earth observation data allows me to step outside my everyday, ground-level experience and gain fresh, data-driven insights into a city I thought I knew so well.",
     "crumbs": [
@@ -22,7 +22,7 @@
   {
     "objectID": "index.html#contents",
     "href": "index.html#contents",
-    "title": "RMweekly",
+    "title": "Learning Diary",
     "section": "Contents",
     "text": "Contents\nIn this diary, I will cover the summary, applications, and my own reflections on each week of the module with the following structure:\nWeek 1: Getting started with remote sensing\nWeek 2: Landsat xaringan presentation\nWeek 3: Feature Extraction and Dimension Reduction\nWeek 4: Policy\nWeek 5: Meet Earth Google Engine\nWeek 6: Classification 1\nWeek 7: Classification 2\nWeek 8: Temperature",
     "crumbs": [
