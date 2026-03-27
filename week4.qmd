@@ -1,17 +1,17 @@
 ---
-title: "Week4 —— Policy"
+title: "Policy"
 format: html
 bibliography: references.bib
 link-citations: true
 ---
 
-## 1. Introduction
+## Introduction
 
 Ahmedabad is one of India’s typical high-temperature cities and has experienced frequent extreme heat waves over the past few decades. As urbanization progresses, the increase in impervious surfaces and the reduction in green spaces have further exacerbated the urban heat island effect. After analyzing data from 2002 to 2018, [@SHARMA2024101832] found a significant association between extreme heat events and all-cause mortality. Extreme heat is no longer merely a climatic phenomenon; it poses a substantial threat to public health.
 
 ![Association between Maximum Temperature and Mortality Risk. Resource: [@SHARMA2024101832].](images/clipboard-2170059669.png){fig-align="center" width="448"}
 
-## 2. Ahmedabad 2016 Heat Action Plan
+## Ahmedabad 2016 Heat Action Plan
 
 Against this backdrop, Ahmedabad began to gradually explore systematic measures to address heatwaves, the most notable of which is the Ahmedabad Heat Action Plan. This policy is considered the first city-level heat-related health response plan in South Asia. It primarily aims to reduce the risks through early warning systems, public awareness campaigns, and interagency collaboration.
 
@@ -23,7 +23,7 @@ As the policy was implemented, attention gradually turned to its effectiveness. 
 
 Current analytical methods remain primarily based on meteorological warnings and city-wide responses, with relatively limited attention paid to spatial variations within cities. Differences in vegetation cover, building density, and socioeconomic conditions across different areas all influence their sensitivity to high temperatures. Therefore, how to more precisely identify the distribution of heat risk within cities and provide support for more targeted interventions has become a topic worthy of further exploration.
 
-## 3. Data
+## Data
 
 Given the limitations of existing Heat Action Plans in terms of spatial resolution. The incorporation of remote sensing data can help provide a better understanding of variations in heat exposure within cities. By analyzing multi-source remote sensing data, it is possible to identify which communities are more vulnerable to high temperatures. Furthermore, by combining this information with data on vegetation cover and water body distribution, we can pinpoint areas lacking natural factors that help mitigate heat stress.
 
@@ -35,7 +35,7 @@ Raw NDVI data is derived from the visible and near-infrared bands of Landsat-8 o
 
 ![Pearson’s correlation between SUHII (2003–2018) and different potential drivers during daytime and nighttime, in the summer and winter season. [@s19173701]](images/clipboard-2960236245.png)
 
-## 4. Application
+## Application
 
 As we mentioned earlier, we can now obtain Land Surface Temperature (LST) data with 10-meter resolution and detailed vegetation cover (NDVI) data. The most direct application of this is to transform these data into a high-resolution urban heat island diagnosis map. We no longer need to rely on citywide weather forecasts. Satellite imagery can provide precision down to the block or even street level, directly identifying which specific buildings and neighborhoods are currently in the furnace.
 
@@ -53,7 +53,7 @@ When a heat wave strikes, the government won’t have to cast a wide net across 
 
 From a broader perspective, optimizing heat action plans using high-resolution spatial data is a key pathway to achieving the United Nations Sustainable Development Goals. First, this directly contributes to Goal 11 (Sustainable Cities and Communities) by precisely identifying surface temperatures to determine how cities can improve infrastructure and enhance their resilience to climate-related disasters. Second, this data-driven approach helps reduce health inequalities, aligning with Goal 3 (Good Health and Well-being), and ensures that marginalized groups are not left behind during extreme heat waves due to their disadvantaged geographic locations or economic circumstances. However, as mentioned earlier, data technology must be integrated with practical socioeconomic realities to truly realize a sustainable future.
 
-## 5. Reflections
+## Reflections
 
 The results derived from satellite image analysis are free from subjective bias. They enable decision-makers to quickly bypass the debate over “where resources are most needed” and move directly to the implementation phase of “how to carry out interventions.” Furthermore, since this data is inexpensive to obtain and updated rapidly, it significantly reduces the burden on field staff responsible for data collection.
 

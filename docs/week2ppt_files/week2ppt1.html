@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>The Landsat Remote Sensing Sensor</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Tianyi Chen" />
+    <script src="libs/header-attrs-2.30/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# The Landsat Remote Sensing Sensor
+]
+.subtitle[
+## week2
+]
+.author[
+### Tianyi Chen
+]
+.date[
+### 2026/01/20 (updated: 2026-03-27)
+]
+
+---
+
+background-image: url("https://raw.githubusercontent.com/Ty-Chenn/RM_diary/main/Landsat1.png")
+background-size: contain
+
+&lt;div style="text-align: center; margin-top: 40px; color: black;"&gt;
+  &lt;strong&gt;Website:&lt;/strong&gt; 
+  &lt;a href="https://science.nasa.gov/mission/landsat/" style="color: black; text-decoration: underline;"&gt;Landsat&lt;/a&gt;
+&lt;/div&gt;
+      
+---
+class: inverse, center, middle
+
+# What is Landsat?
+
+The Landsat programme is jointly managed by NASA and the United States Geological Survey (USGS), with continuous data collection dating back to 1972.
+
+ &lt;img src="./landsat_timeline_20200318_issues_1920x1080.jpg" alt="Landsat Timeline"&gt;
+
+
+---
+
+class: inverse, center, middle
+- The primary objective of Landsat is to systematically observe the Earth’s land surface and provide consistent.Due to its long temporal coverage and global availability, Landsat data have become a foundational resource in remote sensing research.
+
+
+# Explore more!
+# See how they differ below
+
+
+---
+
+&lt;div style="text-align: center;"&gt;
+
+| Satellite  |Launch &lt;br&gt; Year |Main &lt;br&gt; Sensor |Spatial &lt;br&gt; Resolution |Main &lt;br&gt; Applications     |Status      |
+|:-----------|:----------------|:----------------|:-----------------------|:--------------------------|:-----------|
+|Landsat 1   |1972             |MSS              |60–80 m                 |Land cover, vegetation     |Retired     |
+|Landsat 2   |1975             |MSS              |60–80 m                 |Land use classification    |Retired     |
+|Landsat 3   |1978             |MSS              |60–80 m                 |Regional land cover change |Retired     |
+|Landsat 4   |1982             |TM               |30 m                    |Vegetation, hydrology      |Retired     |
+|Landsat 5   |1984             |TM               |30 m                    |Long-term monitoring       |Retired     |
+|Landsat 6   |1993             |ETM              |—                       |—                          |Failed      |
+|Landsat 7   |1999             |ETM+             |30 m                    |Urban studies, LST         |Partial     |
+|Landsat 8   |2013             |OLI/TIRS         |30 m                    |Urban, agriculture, water  |Operational |
+|Landsat 9   |2021             |OLI-2/TIRS-2     |30 m                    |Climate and sustainability |Operational |
+
+---
+class: inverse, center, middle
+
+# Landsat in Action
+## Three Key Applications
+
+---
+# 1. Urbanization &amp; Land Cover Change
+
+Landsat's 30m resolution and thermal bands make it perfect for tracking human footprints over decades.
+
+.pull-left[
+### Urban Sprawl
+- Tracking the expansion of megacities over the past 50 years.
+- Mapping impervious surfaces (concrete, asphalt) for urban planning.
+]
+
+.pull-right[
+### Urban Heat Island (UHI)
+- Using Thermal Infrared Sensors (TIRS) to measure **Land Surface Temperature (LST)**.
+- Identifying "hot spots" in cities to guide green infrastructure.
+]
+
+---
+# 2. Agriculture &amp; Vegetation Health
+
+Landsat's combination of **visible, near-infrared (NIR), and thermal bands** makes it a powerful tool for global food security and precision agriculture.
+
+.pull-left[
+### 🌾 Crop Monitoring &amp; Yield
+- **Health Assessment:** Calculating indices like **NDVI** (Normalized Difference Vegetation Index) using Red and NIR bands to measure plant vitality.
+- **Yield Estimation:** Tracking crop phenology (growth cycles) across seasons to predict regional harvest volumes.
+- **Stress Detection:** Identifying crop stress (disease or pests) before it becomes visible to the naked eye.
+]
+
+.pull-right[
+### 💧 Water &amp; Soil Management
+- **Evapotranspiration:** Using Landsat's Thermal Infrared Sensor (**TIRS**) to monitor water evaporating from soil and transpiring from plants.
+- **Irrigation Optimization:** Guiding precision agriculture to allocate water resources efficiently in drought-prone or arid regions.
+]
+
+&lt;br&gt;
+
+.center[
+&gt; *"Landsat allows us to measure crop water consumption field by field, transforming how we manage global agricultural resources."*
+]
+
+
+---
+# 3. Climate Change &amp; Ecosystems
+
+The 50+ year continuous archive serves as a true **"time machine"** for observing Earth's dynamic environment and measuring climate anomalies.
+
+.pull-left[
+### 🌲 Forest Dynamics &amp; Disturbances
+- **Deforestation:** Quantifying clear-cutting rates in critical biomes like the Amazon rainforest.
+- **Wildfire Assessment:** Mapping burn scars and monitoring vegetation recovery using the **NBR** (Normalized Burn Ratio).
+- **Carbon Accounting:** Providing baseline data for global forest carbon estimation.
+]
+
+.pull-right[
+### 🧊 Cryosphere &amp; Hydrology
+- **Glacial Retreat:** Monitoring the calving of polar ice shelves and the melting of high-altitude glaciers.
+- **Surface Water:** Tracking long-term changes in lakes and rivers using **NDWI** (Normalized Difference Water Index). 
+- *Classic Case: The shrinking of the Aral Sea.*
+]
+
+&lt;br&gt;
+&lt;br&gt;
+
+.center[
+&gt; *"Landsat's historical archive is widely considered the gold standard for global climate change and ecological research."*
+]
+
+
+---
+
+class: center, middle
+
+# Thanks!
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+  "highlightStyle": "github",
+  "highlightLines": true,
+  "countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

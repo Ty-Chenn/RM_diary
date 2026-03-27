@@ -1,3 +1,5 @@
 # Week 2
 
-\`\`\`{=html} <iframe src="_week2ppt.html" width="100%" height="500px" style="border: 2px solid #ccc;"></iframe>
+## Landsat
+
+<iframe src="week2ppt_files/week2ppt1.html" width="100%" height="500px" style="border: 2px solid #ccc;"></iframe>

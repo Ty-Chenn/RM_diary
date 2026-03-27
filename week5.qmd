@@ -1,5 +1,5 @@
 ---
-title: "Week5 -- Meet Earth Google Engine"
+title: "Meet Earth Google Engine"
 ---
 
 ## Introduction

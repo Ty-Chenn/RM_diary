@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>3&nbsp; Week3——Feature Extraction and Dimension Reduction – RMweekly</title>
+<title>3&nbsp; Feature Extraction and Dimension Reduction – RMweekly</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -132,7 +132,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week3.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week3——Feature Extraction and Dimension Reduction</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week3.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Feature Extraction and Dimension Reduction</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -166,7 +166,7 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week1 — Getting started with remote sensing</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Getting started with remote sensing</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -178,25 +178,25 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week3.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week3——Feature Extraction and Dimension Reduction</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Feature Extraction and Dimension Reduction</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week4 —— Policy</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Policy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week5 – Meet Earth Google Engine</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Meet Earth Google Engine</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week6 – Classification 1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Classification 1</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -227,14 +227,14 @@ window.Quarto = {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">3.1</span> 1. Summary</a>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">3.1</span> Summary</a>
   <ul class="collapse">
-  <li><a href="#ndvi-vegetation-feature-extraction" id="toc-ndvi-vegetation-feature-extraction" class="nav-link" data-scroll-target="#ndvi-vegetation-feature-extraction"><span class="header-section-number">3.1.1</span> 1.1 NDVI: Vegetation Feature Extraction</a></li>
-  <li><a href="#glcm-spatial-texture-feature-extraction" id="toc-glcm-spatial-texture-feature-extraction" class="nav-link" data-scroll-target="#glcm-spatial-texture-feature-extraction"><span class="header-section-number">3.1.2</span> 1.2 GLCM: Spatial Texture Feature Extraction</a></li>
-  <li><a href="#pca-multi-source-data-fusion-and-dimension-reduction" id="toc-pca-multi-source-data-fusion-and-dimension-reduction" class="nav-link" data-scroll-target="#pca-multi-source-data-fusion-and-dimension-reduction"><span class="header-section-number">3.1.3</span> 1.3 PCA: Multi-source Data Fusion and Dimension Reduction</a></li>
+  <li><a href="#ndvi-vegetation-feature-extraction" id="toc-ndvi-vegetation-feature-extraction" class="nav-link" data-scroll-target="#ndvi-vegetation-feature-extraction"><span class="header-section-number">3.1.1</span> NDVI: Vegetation Feature Extraction</a></li>
+  <li><a href="#glcm-spatial-texture-feature-extraction" id="toc-glcm-spatial-texture-feature-extraction" class="nav-link" data-scroll-target="#glcm-spatial-texture-feature-extraction"><span class="header-section-number">3.1.2</span> GLCM: Spatial Texture Feature Extraction</a></li>
+  <li><a href="#pca-multi-source-data-fusion-and-dimension-reduction" id="toc-pca-multi-source-data-fusion-and-dimension-reduction" class="nav-link" data-scroll-target="#pca-multi-source-data-fusion-and-dimension-reduction"><span class="header-section-number">3.1.3</span> PCA: Multi-source Data Fusion and Dimension Reduction</a></li>
   </ul></li>
-  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">3.2</span> 2. Application</a></li>
-  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">3.3</span> 3. Reflection</a></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">3.2</span> Application</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">3.3</span> Reflection</a></li>
   </ul>
 </nav>
     </div>
@@ -243,7 +243,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week3——Feature Extraction and Dimension Reduction</span></h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Feature Extraction and Dimension Reduction</span></h1>
 </div>
 
 
@@ -261,10 +261,10 @@ window.Quarto = {
 
 
 <section id="summary" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">3.1</span> 1. Summary</h2>
+<h2 data-number="3.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">3.1</span> Summary</h2>
 <p>This learning task uses Landsat satellite imagery of Cape Town as its basis. Using the R programming language, we extracted the Normalized Difference Vegetation Index (NDVI) based on spectral features and calculated the Gray-Level Co-occurrence Matrix (GLCM) texture based on spatial features. Finally, we performed dimensional reduction and extracted key features from the multi-source fused data using Principal Component Analysis (PCA). This week’s learning theme focuses on “Advanced Feature Extraction and Data Dimension Reduction.” The primary objective of performing this series of preprocessing operations is to prepare the most concise and highest-quality feature variables for subsequent land cover classification (or machine learning models).</p>
 <section id="ndvi-vegetation-feature-extraction" class="level3" data-number="3.1.1">
-<h3 data-number="3.1.1" class="anchored" data-anchor-id="ndvi-vegetation-feature-extraction"><span class="header-section-number">3.1.1</span> 1.1 NDVI: Vegetation Feature Extraction</h3>
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="ndvi-vegetation-feature-extraction"><span class="header-section-number">3.1.1</span> NDVI: Vegetation Feature Extraction</h3>
 <p>Based on the principle that different surface materials reflect light differently (healthy vegetation contains chlorophyll, which strongly absorbs red light, while the cellular structure of plants strongly reflects near-infrared light), the calculation is performed using the following formula: <span class="math display">\[NDVI = \frac{B5 - B4}{B5 + B4}\]</span></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -279,7 +279,7 @@ window.Quarto = {
 </div>
 </section>
 <section id="glcm-spatial-texture-feature-extraction" class="level3" data-number="3.1.2">
-<h3 data-number="3.1.2" class="anchored" data-anchor-id="glcm-spatial-texture-feature-extraction"><span class="header-section-number">3.1.2</span> 1.2 GLCM: Spatial Texture Feature Extraction</h3>
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="glcm-spatial-texture-feature-extraction"><span class="header-section-number">3.1.2</span> GLCM: Spatial Texture Feature Extraction</h3>
 <p>Satellite spectral bands mainly reflect surface color, but not spatial structure. Gray-Level Co-occurrence Matrix (GLCM) quantifies texture by analyzing grey-level variations between neighboring pixels, capturing surface smoothness or roughness.</p>
 <p>The formula for converting DN to refractive index is： <span class="math inline">\(\rho = (DN \times 0.0000275) - 0.2\)</span>）</p>
 <p>In this study, using Cape Town as an example, we calculated a 7×7 window homogeneity metric from the red band. The large areas of light gray and pure white in the image represent “high homogeneity,” indicating that the surface in these areas is smooth, such as open water bodies, vegetation, or flat bare ground. The dark gray, densely spotted areas represent “low homogeneity,” indicating that the texture of the adjacent surface is fragmented, corresponding to urban built-up areas, dense residential zones.</p>
@@ -290,14 +290,14 @@ window.Quarto = {
 </div>
 </section>
 <section id="pca-multi-source-data-fusion-and-dimension-reduction" class="level3" data-number="3.1.3">
-<h3 data-number="3.1.3" class="anchored" data-anchor-id="pca-multi-source-data-fusion-and-dimension-reduction"><span class="header-section-number">3.1.3</span> 1.3 PCA: Multi-source Data Fusion and Dimension Reduction</h3>
+<h3 data-number="3.1.3" class="anchored" data-anchor-id="pca-multi-source-data-fusion-and-dimension-reduction"><span class="header-section-number">3.1.3</span> PCA: Multi-source Data Fusion and Dimension Reduction</h3>
 <p>There is typically a strong correlation between the various bands in multispectral imagery, leading to information redundancy and introducing a certain amount of noise. PCA uses an orthogonal transformation to convert these correlated layers into a set of mutually independent new variables, which are ranked by information content.</p>
 <p>We applied PCA to eight spectral bands and one texture band from Cape Town. Most of the useful information is captured in the first few components, while noise and less important variation are pushed into later components. This helps reduce redundancy and provides clearer inputs for land cover classification.</p>
 <p><img src="week3/images/PCA_perfect.png" class="img-fluid"></p>
 </section>
 </section>
 <section id="application" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="application"><span class="header-section-number">3.2</span> 2. Application</h2>
+<h2 data-number="3.2" class="anchored" data-anchor-id="application"><span class="header-section-number">3.2</span> Application</h2>
 <p>Principal Component Analysis (PCA), as a preprocessing step for dimensionality reduction, has been widely applied in remote sensing workflows. For example, <span class="citation" data-cites="ZABALZA2014112">(<a href="references.html#ref-ZABALZA2014112" role="doc-biblioref">Zabalza et al. 2014</a>)</span> incorporated PCA into a broader feature extraction framework for hyperspectral and Synthetic Aperture Radar (SAR) data. PCA was primarily used to reduce data dimensionality and computational load.</p>
 <p>Several recent studies have combined PCA with convolutional neural networks (CNNs). PCA is used to reduce spectral redundancy, while CNNs extract spatial features and perform classification. This approach significantly improves classification accuracy compared to traditional methods<span class="citation" data-cites="8736016">(<a href="references.html#ref-8736016" role="doc-biblioref">Roy et al. 2020</a>)</span>. Essentially, the capabilities of PCA itself have not been enhanced; rather, the introduction of CNNs compensates for PCA’s limitations in representing spatial information.</p>
 <div class="quarto-figure quarto-figure-center">
@@ -319,7 +319,7 @@ window.Quarto = {
 </ul>
 </section>
 <section id="reflection" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">3.3</span> 3. Reflection</h2>
+<h2 data-number="3.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">3.3</span> Reflection</h2>
 <p>Through practical experience, I have found that PCA has some obvious drawbacks. For example, PCA combines the original features linearly into new principal components, which means the results lack intuitive physical or practical meaning. While the plot shows which directions exhibit the greatest variation, it is impossible to clearly determine which light waves are responsible for these changes. Furthermore, since PCA prioritizes retaining information with large variations, useful information may be lost in some practical tasks where features with small variations are often equally important for classification or recognition. Overall, while PCA effectively compresses information, its poor interpretability and insensitivity to nonlinearities and small-amplitude changes are limitations that must be weighed when using the method.</p>
 
 
@@ -747,8 +747,8 @@ Zabalza, Jaime, Jinchang Ren, Mingqiang Yang, Yi Zhang, Jun Wang, Stephen Marsha
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./week4.html" class="pagination-link" aria-label="Week4 —— Policy">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week4 —— Policy</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./week4.html" class="pagination-link" aria-label="Policy">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Policy</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
